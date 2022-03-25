@@ -22,7 +22,8 @@ defineProps<{
     <RouterLink :to="route">
       <h1 class="item-details-title">{{ name }}</h1>
     </RouterLink>
-    <div v-html="shortDescription" class="item-details-short-description"></div>
+
+    <div v-text="shortDescription" class="item-details-short-description"></div>
 
     <IngredientList
       :ingredients="ingredients"
@@ -33,15 +34,12 @@ defineProps<{
     <div class="item-details-image">
       <img :src="image" />
     </div>
-    <div class="item-details-description">
-      {{ description }}
-    </div>
 
-    <div class="item-details-tips">
+    <div v-text="description" class="item-details-description center" />
+
+    <div class="item-details-tips center" v-if="tips">
       <h3>Hinweise & Tips</h3>
-      <div>
-        {{ tips }}
-      </div>
+      <div v-text="tips" class=""></div>
     </div>
   </div>
 </template>
@@ -64,17 +62,22 @@ h1 {
   text-align: center;
   font-style: italic;
 }
+
+.center {
+  justify-content: center;
+}
+
 .item-details-description {
+  margin-top: 1rem;
+}
+
+.item-details-tips {
   margin-top: 1rem;
 }
 
 .item-details-image {
   text-justify: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 20px 0px;
 
   display: flex;
   place-items: center;
@@ -95,5 +98,12 @@ h3 {
   margin-top: 0.4rem;
   margin-bottom: 0.4rem;
   color: var(--color-heading);
+}
+
+@media (min-width: 1024px) {
+  .item-details-image {
+  text-justify: center;
+  margin: 30px 0px;
+  }
 }
 </style>
