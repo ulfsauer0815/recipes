@@ -22,6 +22,7 @@ const recipe = recipeStore.getBySlug(props.slug);
       :ingredients="recipe.ingredients"
       :defaultServings="recipe.defaultServings"
       :baseServings="recipe.baseServings"
+      :steps="recipe.steps"
     />
   </div>
 </template>

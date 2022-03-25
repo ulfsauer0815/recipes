@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { useRoute } from "vue-router";
 import IngredientList from "./IngredientList.vue";
-import type { Ingredient } from "@/domain/Ingredient";
+import Steps from "./Steps.vue";
+import type { Ingredient, Step } from "@/domain/types";
 
 const route = useRoute();
 
@@ -11,9 +12,10 @@ defineProps<{
   shortDescription?: string;
   description?: string;
   tips?: string;
-  ingredients: Ingredient[];
+  ingredients?: Ingredient[];
   defaultServings?: number;
   baseServings?: number;
+  steps?: Step[];
 }>();
 </script>
 
@@ -26,6 +28,7 @@ defineProps<{
     <div v-text="shortDescription" class="item-details-short-description"></div>
 
     <IngredientList
+      v-if="ingredients"
       :ingredients="ingredients"
       :defaultServings="defaultServings"
       :baseServings="baseServings"
@@ -41,6 +44,8 @@ defineProps<{
       <h3>Hinweise & Tips</h3>
       <div v-text="tips" class=""></div>
     </div>
+
+    <Steps v-if="steps" :steps="steps" />
   </div>
 </template>
 
@@ -102,8 +107,8 @@ h3 {
 
 @media (min-width: 1024px) {
   .item-details-image {
-  text-justify: center;
-  margin: 30px 0px;
+    text-justify: center;
+    margin: 30px 0px;
   }
 }
 </style>

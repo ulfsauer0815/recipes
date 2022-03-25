@@ -65,6 +65,23 @@
             {
                 "name": "Salz"
             }
+        ],
+        "steps": [
+            {
+                "description": "Gemüse waschen"
+            },
+            {
+                "description": "Schnibbeln"
+            },
+            {
+                "description": "Zucchinis dünsten"
+            },
+            {
+                "description": "Hackfleisch anbraten"
+            },
+            {
+                "description": "Spaghetti kochen"
+            }
         ]
     },
     {

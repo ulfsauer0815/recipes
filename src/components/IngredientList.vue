@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import type { Ingredient } from "@/domain/Ingredient";
+import type { Ingredient } from "@/domain/types";
 
 const props = defineProps<{
   ingredients: Ingredient[];
