@@ -7,7 +7,14 @@ const searchQuery = ref();
 
 <template>
   <div class="recipe-searchbar">
-    <input type="text" placeholder="Suche.." v-model="searchQuery" />
+    <!-- workaround for v-model not updating on mobile
+         https://github.com/vuejs/vue/issues/8231 -->
+    <input
+      type="text"
+      placeholder="Suche.."
+      :value="searchQuery"
+      @input="searchQuery = $event.target.value"
+    />
   </div>
   <RecipeList :searchQuery="searchQuery" />
 </template>
