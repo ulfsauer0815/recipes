@@ -15,14 +15,13 @@ const servings = ref(props.defaultServings || 1);
   <div class="servings-input">
     Portionen <input type="number" min="1" v-model="servings" />
   </div>
-  <ul class="ingredients">
-    <li
+  <div class="ingredients">
+    <div
       class="ingredient"
       v-for="ingredient in ingredients"
       :key="ingredient.name"
     >
-      <template v-if="ingredient.quantity">
-        {{ ingredient.name }}:
+      <span class="ingredient-amount" v-if="ingredient.quantity">
         {{
           (
             (ingredient.quantity / (baseServings || 1)) *
@@ -30,12 +29,13 @@ const servings = ref(props.defaultServings || 1);
           ).toLocaleString()
         }}
         {{ ingredient.unit }}
-      </template>
-      <template v-else>
+      </span>
+      <span class="ingredient-amount" v-else> </span>
+      <span class="ingredient-name">
         {{ ingredient.name }}
-      </template>
-    </li>
-  </ul>
+      </span>
+    </div>
+  </div>
 </template>
 
 <style scoped>
@@ -45,6 +45,16 @@ const servings = ref(props.defaultServings || 1);
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
+}
+
+.ingredient {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1rem;
+}
+
+.ingredient-amount {
+  text-align: right;
 }
 
 .servings-input {
