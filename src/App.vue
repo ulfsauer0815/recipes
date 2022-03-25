@@ -26,7 +26,7 @@ https://www.iconpacks.net/free-icon/cook-book-5025.html
 @import "@/assets/base.css";
 
 #app {
-  max-width: 1280px;
+  max-width: 750px;
   margin: 0 auto;
   padding: 2rem 1.5rem;
 
