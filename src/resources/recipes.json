@@ -1,0 +1,139 @@
+[
+    {
+        "name": "Spaghetti Bolognese",
+        "slug": "spaghetti-bolognese",
+        "listImage": "https://via.placeholder.com/150x150",
+        "image": "https://via.placeholder.com/800x600",
+        "shortDescription": "The best Bolo",
+        "description": "Bolognese mit viel Spielraum für Kreativität.",
+        "defaultServings": 6,
+        "baseServings": 5,
+        "ingredients": [
+            {
+                "name": "Spaghetti",
+                "quantity": 800,
+                "unit": "g"
+            },
+            {
+                "name": "Hackfleisch",
+                "quantity": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Karotten",
+                "quantity": 3,
+                "unit": "Stück"
+            },
+            {
+                "name": "Zucchini",
+                "quantity": 1.5,
+                "unit": "Stück"
+            },
+            {
+                "name": "Tomaten (gestückelt)",
+                "quantity": 800,
+                "unit": "g"
+            },
+            {
+                "name": "Tomaten (passiert)",
+                "quantity": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebel",
+                "quantity": 1,
+                "unit": "Stück"
+            },
+            {
+                "name": "Knoblauch",
+                "quantity": 1,
+                "unit": "Zehen"
+            },
+            {
+                "name": "Thymian",
+                "quantity": 2.5,
+                "unit": "Zehen"
+            },
+            {
+                "name": "Mayoran",
+                "quantity": 1,
+                "unit": "TL"
+            },
+            {
+                "name": "Pfeffer"
+            },
+            {
+                "name": "Salz"
+            }
+        ]
+    },
+    {
+        "name": "Kürbissuppe",
+        "slug": "kokos-kurbissuppe",
+        "listImage": "https://via.placeholder.com/150x150",
+        "image": "https://via.placeholder.com/800x600",
+        "shortDescription": "Kürbissuppe mit Kokosmilch",
+        "description": "Die leckerste Kürbissuppe!",
+        "defaultServings": 6,
+        "baseServings": 6,
+        "tips": "6 Portionen passen sehr gut für einen großen Topf!",
+        "ingredients": [
+            {
+                "name": "Kürbis",
+                "quantity": 1000,
+                "unit": "g"
+            },
+            {
+                "name": "Karotten",
+                "quantity": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Kokosmilch",
+                "quantity": 300,
+                "unit": "ml"
+            },
+            {
+                "name": "Gemüsebrühe",
+                "quantity": 1,
+                "unit": "l"
+            },
+            {
+                "name": "Zwiebeln",
+                "quantity": 2,
+                "unit": "Stück"
+            },
+            {
+                "name": "Sojasauce",
+                "quantity": 2,
+                "unit": "EL"
+            },
+            {
+                "name": "Pfeffer"
+            },
+            {
+                "name": "Salz"
+            }
+        ]
+    },
+    {
+        "name": "Masur Dal",
+        "slug": "masul-dal",
+        "listImage": "https://via.placeholder.com/150x150",
+        "image": "https://via.placeholder.com/800x600",
+        "shortDescription": "Yup, ein Rote-Linsen-Dal",
+        "description": "Hier gibt's Details",
+        "ingredients": [
+            {
+                "name": "Rote Linsen",
+                "quantity": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Kokosmilch",
+                "quantity": 400,
+                "unit": "ml"
+            }
+        ]
+    }
+]
