@@ -69,17 +69,24 @@ h1 {
 }
 
 .item-details-image {
+  text-justify: center;
   margin-top: 10px;
   margin-bottom: 10px;
 
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 
   display: flex;
   place-items: center;
   place-content: center;
+}
 
-  color: var(--color-text);
+.item-details-image > img {
+  display: block;
+
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 h3 {
@@ -88,8 +95,5 @@ h3 {
   margin-top: 0.4rem;
   margin-bottom: 0.4rem;
   color: var(--color-heading);
-}
-
-@media (min-width: 1024px) {
 }
 </style>
