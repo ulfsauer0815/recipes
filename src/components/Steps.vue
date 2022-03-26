@@ -39,6 +39,9 @@ defineProps<{
   width: 25px;
   left: -15px;
   content: counter(items-counter) ". ";
+  font-weight: bold;
+  font-size: 17px;
+  line-height: normal;
 }
 
 @media (min-width: 1024px) {

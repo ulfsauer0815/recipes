@@ -24,7 +24,7 @@ defineProps({
 
 <style scoped>
 .list-item {
-  margin-top: 2rem;
+  margin-top: 15px;
   padding-right: 1rem;
   display: flex;
   flex: 50%;
