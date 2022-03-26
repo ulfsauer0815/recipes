@@ -26,8 +26,6 @@ jobs:
 
       - name: Build site
         run: "npm run build"
-        env:
-          BASE_URL: "/recipes/"
 
       - name: Deploy to GitHub pages
         uses: JamesIves/github-pages-deploy-action@v4.2.5
