@@ -97,12 +97,12 @@
         "ingredients": [
             {
                 "name": "Kürbis",
-                "quantity": 1000,
+                "quantity": 800,
                 "unit": "g"
             },
             {
                 "name": "Karotten",
-                "quantity": 400,
+                "quantity": 600,
                 "unit": "g"
             },
             {
@@ -117,8 +117,23 @@
             },
             {
                 "name": "Zwiebeln",
-                "quantity": 2,
+                "quantity": 1.5,
                 "unit": "Stück"
+            },
+            {
+                "name": "Ingwer",
+                "quantity": 15,
+                "unit": "g"
+            },
+            {
+                "name": "Zitrone",
+                "quantity": 0.5,
+                "unit": "g"
+            },
+            {
+                "name": "Butter",
+                "quantity": 2,
+                "unit": "EL"
             },
             {
                 "name": "Sojasauce",
@@ -126,10 +141,30 @@
                 "unit": "EL"
             },
             {
+                "name": "Muskatnuss"
+            },
+            {
                 "name": "Pfeffer"
             },
             {
                 "name": "Salz"
+            }
+        ],
+        "steps": [
+            {
+                "description": "Kürbis, Möhren, Ingwer und Zwiebeln schneiden und würfeln"
+            },
+            {
+                "description": "Zwiebeln in viel Butter andünsten"
+            },
+            {
+                "description": "Den Rest Gemüse dazugeben und etwas andünsten"
+            },
+            {
+                "description": "Mit Brühe aufgießen und ca. 20 min weichkochen"
+            },
+            {
+                "description": "Alles pürieren und mit restlichen Zutaten abschmecken"
             }
         ]
     },
