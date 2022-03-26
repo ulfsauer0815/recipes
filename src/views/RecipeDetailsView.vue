@@ -15,6 +15,7 @@ const recipe = recipeStore.getBySlug(props.slug);
   <div class="recipe-details">
     <RecipeDetails
       :name="recipe.name"
+      :wip="recipe.wip"
       :image="recipe.image"
       :shortDescription="recipe.shortDescription"
       :description="recipe.description"

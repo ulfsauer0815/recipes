@@ -8,6 +8,7 @@ const route = useRoute();
 
 defineProps<{
   name: string;
+  wip?: boolean;
   image?: string;
   shortDescription?: string;
   description?: string;
@@ -22,7 +23,9 @@ defineProps<{
 <template>
   <div class="item-details">
     <RouterLink :to="route">
-      <h1 class="item-details-title">{{ name }}</h1>
+      <h1 class="item-details-title">
+        <span v-if="wip">🚧</span> {{ name }} <span v-if="wip">🚧</span>
+      </h1>
     </RouterLink>
 
     <div v-text="shortDescription" class="item-details-short-description"></div>

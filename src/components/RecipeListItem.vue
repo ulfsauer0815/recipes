@@ -1,6 +1,7 @@
 <script setup lang="ts">
 defineProps({
   name: { type: String, required: true },
+  wip: { type: Boolean },
   slug: { type: String, required: true },
   link: { type: String },
   listImage: { type: String },
@@ -12,6 +13,7 @@ defineProps({
   <div class="list-item">
     <div class="list-image">
       <img :src="listImage" />
+      <span class="list-wip" v-if="wip">🚧</span>
     </div>
     <div class="list-description">
       <router-link :to="'/recipe/' + slug"
@@ -28,6 +30,12 @@ defineProps({
   padding-right: 1rem;
   display: flex;
   flex: 50%;
+}
+
+.list-wip {
+  position: absolute;
+  left: 8px;
+  top: 8px;
 }
 
 .list-description {
