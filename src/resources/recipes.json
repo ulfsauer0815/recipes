@@ -5,7 +5,7 @@
         "slug": "spaghetti-bolognese",
         "listImage": "https://via.placeholder.com/150x150",
         "image": "https://via.placeholder.com/800x600",
-        "shortDescription": "The best Bolo",
+        "shortDescription": "Bolo is the best!",
         "description": "Bolognese mit viel Spielraum für Kreativität.",
         "defaultServings": 6,
         "baseServings": 5,
@@ -90,7 +90,7 @@
         "slug": "kokos-kurbissuppe",
         "listImage": "https://via.placeholder.com/150x150",
         "image": "https://via.placeholder.com/800x600",
-        "shortDescription": "Kürbissuppe mit Kokosmilch",
+        "shortDescription": "mit Kokosmilch",
         "description": "Die leckerste Kürbissuppe!",
         "defaultServings": 6,
         "baseServings": 6,
@@ -258,7 +258,7 @@
         "slug": "masul-dal",
         "listImage": "https://via.placeholder.com/150x150",
         "image": "https://via.placeholder.com/800x600",
-        "shortDescription": "Yup, ein Rote-Linsen-Dal",
+        "shortDescription": "Rote Linsen Kokos Dal",
         "description": "Hier gibt's Details",
         "ingredients": [
             {
