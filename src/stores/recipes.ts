@@ -15,16 +15,16 @@ export const useRecipeStore = defineStore({
           const searchWords = searchQuery.split(" ");
           const filteredList = state.list.filter((recipe) => {
             const ingredients = recipe.ingredients.map((i) => i.name);
-            return [
+            const strings = [
               recipe.name,
               recipe.description,
               recipe.shortDescription,
               ...ingredients,
-            ]
-              .map((e) => e.toLowerCase())
-              .some((e) => {
-                return searchWords.every((sw) => e.indexOf(sw || "") > -1);
-              });
+            ].map((words) => words.toLowerCase());
+
+            return searchWords.every((sw) =>
+              strings.some((e) => e.indexOf(sw) > -1)
+            );
           });
           return filteredList;
         }
