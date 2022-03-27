@@ -22,13 +22,11 @@
             },
             {
                 "name": "Karotten",
-                "quantity": 3,
-                "unit": "Stück"
+                "quantity": 3
             },
             {
                 "name": "Zucchini",
-                "quantity": 1.5,
-                "unit": "Stück"
+                "quantity": 1.5
             },
             {
                 "name": "Tomaten (gestückelt)",
@@ -42,8 +40,7 @@
             },
             {
                 "name": "Zwiebel",
-                "quantity": 1,
-                "unit": "Stück"
+                "quantity": 1
             },
             {
                 "name": "Knoblauch",
@@ -118,8 +115,7 @@
             },
             {
                 "name": "Zwiebeln",
-                "quantity": 1.5,
-                "unit": "Stück"
+                "quantity": 1.5
             },
             {
                 "name": "Ingwer",
@@ -188,13 +184,11 @@
             },
             {
                 "name": "Spitzpaprika (grün)",
-                "quantity": 4.5,
-                "unit": "Stück"
+                "quantity": 4.5
             },
             {
                 "name": "Zwiebeln",
-                "quantity": 2,
-                "unit": "Stück"
+                "quantity": 2
             },
             {
                 "name": "Knoblauch",
@@ -228,8 +222,7 @@
             },
             {
                 "name": "Eier",
-                "quantity": 2,
-                "unit": "Stück"
+                "quantity": 2
             },
             {
                 "name": "Joghurt",
