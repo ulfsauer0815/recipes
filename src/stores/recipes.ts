@@ -14,7 +14,13 @@ export const useRecipeStore = defineStore({
           searchQuery = searchQuery.toLowerCase();
           const searchWords = searchQuery.split(" ");
           const filteredList = state.list.filter((recipe) => {
-            return [recipe.name, recipe.description, recipe.shortDescription]
+            const ingredients = recipe.ingredients.map((i) => i.name);
+            return [
+              recipe.name,
+              recipe.description,
+              recipe.shortDescription,
+              ...ingredients,
+            ]
               .map((e) => e.toLowerCase())
               .some((e) => {
                 return searchWords.every((sw) => e.indexOf(sw || "") > -1);
