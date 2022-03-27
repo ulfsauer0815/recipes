@@ -12,8 +12,10 @@ defineProps({
 <template>
   <div class="list-item">
     <div class="list-image">
-      <img :src="listImage" />
-      <span class="list-wip" v-if="wip">🚧</span>
+      <router-link :to="'/recipe/' + slug">
+        <img :src="listImage" />
+        <span class="list-wip" v-if="wip">🚧</span>
+      </router-link>
     </div>
     <div class="list-description">
       <router-link :to="'/recipe/' + slug"
