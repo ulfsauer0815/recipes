@@ -28,7 +28,10 @@ defineProps<{
       </h1>
     </RouterLink>
 
-    <div v-text="shortDescription" class="item-details-short-description"></div>
+    <div
+      v-text="shortDescription"
+      class="item-details-short-description section"
+    ></div>
 
     <IngredientList
       v-if="ingredients"
@@ -37,18 +40,20 @@ defineProps<{
       :baseServings="baseServings"
     />
 
-    <div class="item-details-image">
+    <div class="item-details-image section">
       <img :src="image" />
     </div>
 
-    <div v-text="description" class="item-details-description center" />
+    <div v-text="description" class="item-details-description section center" />
 
-    <div class="item-details-tips center" v-if="tips">
+    <div class="item-details-tips section center" v-if="tips">
       <h3>Hinweise & Tips</h3>
       <div v-text="tips" class=""></div>
     </div>
 
-    <Steps v-if="steps" :steps="steps" />
+    <div class="item-details-steps section">
+      <Steps class="item-details-steps" v-if="steps" :steps="steps" />
+    </div>
   </div>
 </template>
 
@@ -75,11 +80,7 @@ h1 {
   justify-content: center;
 }
 
-.item-details-description {
-  margin-top: 1rem;
-}
-
-.item-details-tips {
+.section {
   margin-top: 1rem;
 }
 
@@ -103,7 +104,7 @@ h1 {
 h3 {
   font-size: 1.2rem;
   font-weight: 500;
-  margin-top: 0.4rem;
+  margin-top: 1rem;
   margin-bottom: 0.4rem;
   color: var(--color-heading);
 }
