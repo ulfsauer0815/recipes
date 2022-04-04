@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { toRef } from "vue";
 import { useRoute } from "vue-router";
 import IngredientList from "./IngredientList.vue";
 import Steps from "./Steps.vue";
@@ -6,7 +7,7 @@ import type { Ingredient, Step } from "@/domain/types";
 
 const route = useRoute();
 
-defineProps<{
+const props = defineProps<{
   name: string;
   wip?: boolean;
   image?: string;
@@ -18,6 +19,10 @@ defineProps<{
   baseServings?: number;
   steps?: Step[];
 }>();
+
+const name = toRef(props, "name");
+
+document.title = name.value;
 </script>
 
 <template>

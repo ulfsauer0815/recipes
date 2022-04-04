@@ -20,4 +20,8 @@ const router = createRouter({
   ],
 });
 
+router.afterEach(() => {
+  document.title = "Rezepte!";
+});
+
 export default router;

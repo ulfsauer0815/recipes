@@ -25,6 +25,10 @@ https://www.iconpacks.net/free-icon/cook-book-5025.html
 <style>
 @import "@/assets/base.css";
 
+html {
+  margin-left: calc(100vw - 100%);
+}
+
 #app {
   max-width: 750px;
   margin: 0 auto;
