@@ -257,17 +257,17 @@
         "ingredients": [
             {
                 "name": "Rote Linsen",
-                "quantity": 250,
+                "quantity": 240,
                 "unit": "g"
             },
             {
                 "name": "Kokosmilch",
-                "quantity": 400,
+                "quantity": 390,
                 "unit": "ml"
             },
             {
                 "name": "Tomaten (geschält)",
-                "quantity": 400,
+                "quantity": 390,
                 "unit": "g"
             },
             {
@@ -296,7 +296,7 @@
             },
             {
                 "name": "Chiliflocken",
-                "quantity": 1,
+                "quantity": 0.75,
                 "unit": "TL"
             },
             {
