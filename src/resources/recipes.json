@@ -251,17 +251,59 @@
         "listImage": "https://via.placeholder.com/150x150",
         "image": "https://via.placeholder.com/800x600",
         "shortDescription": "Rote Linsen Kokos Dal",
-        "description": "Hier gibt's Details",
+        "defaultServings": 6,
+        "baseServings": 3,
+        "tips": "6 Portionen für einen großen Topf! Passt sehr gut von den geschälten Tomaten & Kokosmilch (jeweils 2 Dosen)",
         "ingredients": [
             {
                 "name": "Rote Linsen",
-                "quantity": 200,
+                "quantity": 250,
                 "unit": "g"
             },
             {
                 "name": "Kokosmilch",
                 "quantity": 400,
                 "unit": "ml"
+            },
+            {
+                "name": "Tomaten (geschält)",
+                "quantity": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Ingwer",
+                "quantity": 30,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebel",
+                "quantity": 1
+            },
+            {
+                "name": "Knoblauch",
+                "quantity": 1.5,
+                "unit": "Zehen"
+            },
+            {
+                "name": "Kokosöl",
+                "quantity": 3,
+                "unit": "TL"
+            },
+            {
+                "name": "Garam Masala",
+                "quantity": 9,
+                "unit": "g"
+            },
+            {
+                "name": "Chiliflocken",
+                "quantity": 1,
+                "unit": "TL"
+            },
+            {
+                "name": "Pfeffer"
+            },
+            {
+                "name": "Salz"
             }
         ]
     }
