@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineProps({
   name: { type: String, required: true },
-  wip: { type: Boolean },
+  draft: { type: Boolean },
   slug: { type: String, required: true },
   link: { type: String },
   listImage: { type: String },
@@ -14,7 +14,7 @@ defineProps({
     <div class="list-image">
       <router-link :to="'/recipe/' + slug">
         <img :src="listImage" />
-        <span class="list-wip" v-if="wip">🚧</span>
+        <span class="list-draft" v-if="draft">🚧</span>
       </router-link>
     </div>
     <div class="list-description">
@@ -34,7 +34,7 @@ defineProps({
   flex: 50%;
 }
 
-.list-wip {
+.list-draft {
   position: absolute;
   left: 8px;
   top: 8px;

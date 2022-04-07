@@ -9,7 +9,7 @@ const route = useRoute();
 
 const props = defineProps<{
   name: string;
-  wip?: boolean;
+  draft?: boolean;
   image?: string;
   shortDescription?: string;
   description?: string;
@@ -29,7 +29,7 @@ document.title = name.value;
   <div class="item-details">
     <RouterLink :to="route">
       <h1 class="item-details-title">
-        <span v-if="wip">🚧</span> {{ name }} <span v-if="wip">🚧</span>
+        <span v-if="draft">🚧</span> {{ name }} <span v-if="draft">🚧</span>
       </h1>
     </RouterLink>
 

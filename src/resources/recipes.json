@@ -1,7 +1,7 @@
 [
     {
         "name": "Spaghetti Bolognese",
-        "wip": true,
+        "draft": true,
         "slug": "spaghetti-bolognese",
         "listImage": "https://via.placeholder.com/150x150",
         "image": "https://via.placeholder.com/800x600",
@@ -166,7 +166,7 @@
     },
     {
         "name": "Türkische Hack-Quiche",
-        "wip": true,
+        "draft": true,
         "slug": "tuerkische-hack-quiche",
         "listImage": "https://via.placeholder.com/150x150",
         "image": "https://via.placeholder.com/800x600",

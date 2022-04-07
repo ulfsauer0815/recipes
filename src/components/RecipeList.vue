@@ -17,7 +17,7 @@ const recipes = computed(() => recipesStore.queryBy(props.searchQuery));
     <template v-for="recipe in recipes" :key="recipe.name">
       <RecipeListItem
         :name="recipe.name"
-        :wip="recipe.wip"
+        :draft="recipe.draft"
         :slug="recipe.slug"
         :listImage="recipe.listImage"
         :shortDescription="recipe.shortDescription"
