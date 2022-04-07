@@ -305,6 +305,32 @@
             {
                 "name": "Salz"
             }
+        ],
+        "steps": [
+            {
+                "description": "Zwiebeln würfeln, Ingwer und Knoblauch klein hacken"
+            },
+            {
+                "description": "Kokosöl in einem großen Topf erhitzen und Zwiebeln 2-3 Minuten anschwitzen bis sie glasig sind"
+            },
+            {
+                "description": "Knoblauch und Ingwer hinzugeben und weitere 1-2 Minuten anschwitzen"
+            },
+            {
+                "description": "Garam Masala hinzugeben und etwas anrösten"
+            },
+            {
+                "description": "Geschälte Tomaten hinzugeben und rühren, dass nichts am Boden festklebt. Die Tomaten mit einem Löffel oder Pfannenwender in Stücke drücken"
+            },
+            {
+                "description": "Linsen waschen, dann hinzugeben und verrühren"
+            },
+            {
+                "description": "Kokosmilch unterrühren und 20 Minuten köcheln lassen"
+            },
+            {
+                "description": "Mit Salz, Pfeffer und Chiliflocken würzen"
+            }
         ]
     }
 ]
