@@ -50,7 +50,7 @@
             {
                 "name": "Thymian",
                 "quantity": 2.5,
-                "unit": "Zehen"
+                "unit": "TL"
             },
             {
                 "name": "Mayoran",
@@ -123,7 +123,7 @@
                 "unit": "g"
             },
             {
-                "name": "Zitrone",
+                "name": "Zitronen",
                 "quantity": 0.5
             },
             {
@@ -192,7 +192,7 @@
             {
                 "name": "Knoblauch",
                 "quantity": 1,
-                "unit": "Zehe"
+                "unit": "Zehen"
             },
             {
                 "name": "Petersilie",
@@ -276,7 +276,7 @@
                 "unit": "g"
             },
             {
-                "name": "Zwiebel",
+                "name": "Zwiebeln",
                 "quantity": 1
             },
             {
