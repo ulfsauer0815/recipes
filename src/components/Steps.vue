@@ -7,12 +7,14 @@ defineProps<{
 </script>
 
 <template>
-  <h3>Schritte</h3>
-  <div class="steps">
-    <div class="step" v-for="step in steps" :key="step.description">
-      <span class="step-description">
-        {{ step.description }}
-      </span>
+  <div class="steps-container">
+    <h3>Schritte</h3>
+    <div class="steps">
+      <div class="step" v-for="step in steps" :key="step.description">
+        <span class="step-description">
+          {{ step.description }}
+        </span>
+      </div>
     </div>
   </div>
 </template>

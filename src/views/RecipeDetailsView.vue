@@ -12,20 +12,18 @@ const recipe = recipeStore.getBySlug(props.slug);
 </script>
 
 <template>
-  <div class="recipe-details">
-    <RecipeDetails
-      :name="recipe.name"
-      :draft="recipe.draft || false"
-      :image="recipe.image"
-      :shortDescription="recipe.shortDescription"
-      :description="recipe.description"
-      :tips="recipe.tips"
-      :ingredients="recipe.ingredients"
-      :defaultServings="recipe.defaultServings"
-      :baseServings="recipe.baseServings"
-      :steps="recipe.steps"
-    />
-  </div>
+  <RecipeDetails
+    :name="recipe.name"
+    :draft="recipe.draft || false"
+    :image="recipe.image"
+    :shortDescription="recipe.shortDescription"
+    :description="recipe.description"
+    :tips="recipe.tips"
+    :ingredients="recipe.ingredients"
+    :defaultServings="recipe.defaultServings"
+    :baseServings="recipe.baseServings"
+    :steps="recipe.steps"
+  />
 </template>
 
 <style></style>

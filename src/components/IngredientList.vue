@@ -21,30 +21,32 @@ function dec() {
 </script>
 
 <template>
-  <div class="servings-input-group">
-    <input type="button" value="-" class="button-minus" @click="dec()" />
-    <input type="number" min="1" v-model="servings" />
-    <input type="button" value="+" class="button-plus" @click="inc()" />
-  </div>
-  <div class="ingredients">
-    <div
-      class="ingredient"
-      v-for="ingredient in ingredients"
-      :key="ingredient.name"
-    >
-      <span class="ingredient-amount" v-if="ingredient.quantity">
-        {{
-          (
-            (ingredient.quantity / (baseServings || 1)) *
-            servings
-          ).toLocaleString()
-        }}
-        {{ ingredient.unit }}
-      </span>
-      <span class="ingredient-amount" v-else> </span>
-      <span class="ingredient-name">
-        {{ ingredient.name }}
-      </span>
+  <div class="ingredients-container">
+    <div class="servings-input-group">
+      <input type="button" value="-" class="button-minus" @click="dec()" />
+      <input type="number" min="1" v-model="servings" />
+      <input type="button" value="+" class="button-plus" @click="inc()" />
+    </div>
+    <div class="ingredients">
+      <div
+        class="ingredient"
+        v-for="ingredient in ingredients"
+        :key="ingredient.name"
+      >
+        <span class="ingredient-amount" v-if="ingredient.quantity">
+          {{
+            (
+              (ingredient.quantity / (baseServings || 1)) *
+              servings
+            ).toLocaleString()
+          }}
+          {{ ingredient.unit }}
+        </span>
+        <span class="ingredient-amount" v-else> </span>
+        <span class="ingredient-name">
+          {{ ingredient.name }}
+        </span>
+      </div>
     </div>
   </div>
 </template>
@@ -108,8 +110,8 @@ input::-webkit-inner-spin-button {
 
   text-align: center;
   font-size: 15px;
-  
-  -webkit-appearance: none;  
+
+  -webkit-appearance: none;
   -moz-appearance: textfield;
 }
 

@@ -26,38 +26,43 @@ document.title = name.value;
 </script>
 
 <template>
-  <div class="item-details">
-    <RouterLink :to="route">
-      <h1 class="item-details-title">
-        <span v-if="draft">🚧</span> {{ name }} <span v-if="draft">🚧</span>
-      </h1>
-    </RouterLink>
+  <div class="recipe-details">
+    <div class="item-details">
+      <RouterLink :to="route">
+        <h1 class="item-details-title">
+          <span v-if="draft">🚧</span> {{ name }} <span v-if="draft">🚧</span>
+        </h1>
+      </RouterLink>
 
-    <div
-      v-text="shortDescription"
-      class="item-details-short-description section"
-    ></div>
+      <div
+        v-text="shortDescription"
+        class="item-details-short-description section"
+      ></div>
 
-    <IngredientList
-      v-if="ingredients"
-      :ingredients="ingredients"
-      :defaultServings="defaultServings"
-      :baseServings="baseServings"
-    />
+      <IngredientList
+        v-if="ingredients"
+        :ingredients="ingredients"
+        :defaultServings="defaultServings"
+        :baseServings="baseServings"
+      />
 
-    <div class="item-details-image section">
-      <img :src="image" />
-    </div>
+      <div class="item-details-image section">
+        <img :src="image" />
+      </div>
 
-    <div v-text="description" class="item-details-description section center" />
+      <div
+        v-text="description"
+        class="item-details-description section center"
+      />
 
-    <div class="item-details-tips section center" v-if="tips">
-      <h3>Hinweise & Tips</h3>
-      <div v-text="tips" class=""></div>
-    </div>
+      <div class="item-details-tips section center" v-if="tips">
+        <h3>Hinweise & Tips</h3>
+        <div v-text="tips" class=""></div>
+      </div>
 
-    <div class="item-details-steps section">
-      <Steps class="item-details-steps" v-if="steps" :steps="steps" />
+      <div class="item-details-steps section">
+        <Steps class="item-details-steps" v-if="steps" :steps="steps" />
+      </div>
     </div>
   </div>
 </template>
