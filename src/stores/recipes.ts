@@ -1,6 +1,10 @@
 import { defineStore } from "pinia";
 import recipesJson from "../resources/recipes.json";
 
+function notEmpty<TValue>(value: TValue | null | undefined): value is TValue {
+  return value !== null && value !== undefined;
+}
+
 export const useRecipeStore = defineStore({
   id: "recipe-store",
   state: () => ({
@@ -21,8 +25,8 @@ export const useRecipeStore = defineStore({
               recipe.shortDescription,
               ...ingredients,
             ]
-            .filter((words) => (words != null))
-            .map((words) => words!.toLowerCase());
+              .filter(notEmpty)
+              .map((words) => words.toLowerCase());
 
             return searchWords.every((sw) =>
               strings.some((e) => e.indexOf(sw) > -1)
