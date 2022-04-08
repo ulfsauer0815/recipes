@@ -20,7 +20,9 @@ export const useRecipeStore = defineStore({
               recipe.description,
               recipe.shortDescription,
               ...ingredients,
-            ].map((words) => words.toLowerCase());
+            ]
+            .filter((words) => (words != null))
+            .map((words) => words!.toLowerCase());
 
             return searchWords.every((sw) =>
               strings.some((e) => e.indexOf(sw) > -1)
