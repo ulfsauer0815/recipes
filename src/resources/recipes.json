@@ -267,7 +267,8 @@
             {
                 "name": "Tomaten (geschält)",
                 "quantity": 390,
-                "unit": "g"
+                "unit": "g",
+                "replacement": "Gestückelte Tomaten"
             },
             {
                 "name": "Ingwer",

@@ -43,8 +43,31 @@ function dec() {
           {{ ingredient.unit }}
         </span>
         <span class="ingredient-amount" v-else> </span>
+
         <span class="ingredient-name">
           {{ ingredient.name }}
+          <span
+            class="ingredient-replacement-info"
+            v-if="ingredient.replacement"
+          >
+            <Popper placement="right" :interactive="false" arrow hover>
+              <template #content>
+                <div class="ingredient-replacement-info-popup">
+                  <div class="ingredient-replacement-info-title">
+                    Alternativ
+                  </div>
+                  <div
+                    class="ingredient-replacement-info-text"
+                    v-text="ingredient.replacement"
+                  ></div>
+                </div>
+              </template>
+              <span class="ingredient-replacement-info-button"
+                >🔄
+                <div data-popper-arrow></div
+              ></span>
+            </Popper>
+          </span>
         </span>
       </div>
     </div>
@@ -62,7 +85,7 @@ function dec() {
 
 .ingredient {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1.5fr;
   grid-column-gap: 1rem;
 }
 
@@ -119,5 +142,24 @@ input::-webkit-inner-spin-button {
 .servings-input-group input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.ingredient-replacement-info-popup {
+  font-size: 0.95em;
+}
+
+.ingredient-replacement-info-button {
+  opacity: 0.9;
+}
+
+.ingredient-replacement-info-title {
+  text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+  .ingredient-replacement-info-text {
+    width: max-content;
+    max-width: 180px;
+  }
 }
 </style>
