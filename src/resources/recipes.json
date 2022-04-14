@@ -332,5 +332,73 @@
                 "description": "Mit Salz, Pfeffer und Chiliflocken würzen"
             }
         ]
+    },
+    {
+        "name": "Rhabarber Baiser Topping",
+        "slug": "rhabarber-baiser-topping",
+        "draft": true,
+        "listImage": "https://via.placeholder.com/150x150",
+        "image": "https://via.placeholder.com/800x600",
+        "shortDescription": "Rhabarber Baiser für Kuchen & Joghurt",
+        "defaultServings": 5,
+        "baseServings": 5,
+        "tips": "Super lecker zum Einmischen in Joghurt!",
+        "ingredients": [
+            {
+                "name": "Rhabarber",
+                "quantity": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Mandeln (gemahlen)",
+                "quantity": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Butter",
+                "quantity": 175,
+                "unit": "g"
+            },
+            {
+                "name": "Zucker",
+                "quantity": 350,
+                "unit": "g"
+            },
+            {
+                "name": "Eier",
+                "quantity": 4
+            },
+            {
+                "name": "Vanillezucker",
+                "quantity": 1,
+                "unit": "Packungen"
+            }
+        ],
+        "steps": [
+            {
+                "description": "Ofen bei 200°C (Ober- & Unterhitze) vorheizen"
+            },
+            {
+                "description": "Rhabarber in Stücke schneiden"
+            },
+            {
+                "description": "Eier trennen"
+            },
+            {
+                "description": "Butter, die Hälfte des Zuckers und den Vanillezucker mit einer Prise Salz schaumig schlagen"
+            },
+            {
+                "description": "Eigelb unterrühren"
+            },
+            {
+                "description": "Eiweiß mit einer Prise Salz steif schlagen und Zucker unter weiterem Schlagen einrieseln (bis der Zucker aufgelöst ist)"
+            },
+            {
+                "description": "Mandeln & Rhabarber unterheben"
+            },
+            {
+                "description": "In einer Auflaufform ca. 30-35 Minuten backen"
+            }
+        ]
     }
 ]
