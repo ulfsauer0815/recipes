@@ -171,15 +171,13 @@
     ]
   },
   {
-    "name": "Rhabarber Baiser Topping",
-    "slug": "rhabarber-baiser-topping",
-    "draft": true,
+    "name": "Rhabarber Baiser Joghurt",
+    "slug": "rhabarber-baiser-joghurt",
     "listImage": "https://via.placeholder.com/150x150",
     "image": "https://via.placeholder.com/800x600",
-    "shortDescription": "Rhabarber Baiser für Kuchen & Joghurt",
+    "shortDescription": "Baiser & Joghurt? Ja, klar!",
     "defaultServings": 5,
     "baseServings": 5,
-    "tips": "Super lecker zum Einmischen in Joghurt!",
     "ingredients": [
       {
         "name": "Rhabarber",
@@ -192,23 +190,13 @@
         "unit": "g"
       },
       {
-        "name": "Butter",
-        "quantity": 175,
-        "unit": "g"
-      },
-      {
         "name": "Zucker",
-        "quantity": 350,
+        "quantity": 120,
         "unit": "g"
       },
       {
-        "name": "Eier",
+        "name": "Eier (Eiklar)",
         "quantity": 4
-      },
-      {
-        "name": "Vanillezucker",
-        "quantity": 1,
-        "unit": "Packungen"
       }
     ],
     "steps": [
@@ -222,13 +210,7 @@
         "description": "Eier trennen"
       },
       {
-        "description": "Butter, die Hälfte des Zuckers und den Vanillezucker mit einer Prise Salz schaumig schlagen"
-      },
-      {
-        "description": "Eigelb unterrühren"
-      },
-      {
-        "description": "Eiweiß mit einer Prise Salz steif schlagen und Zucker unter weiterem Schlagen einrieseln (bis der Zucker aufgelöst ist)"
+        "description": "Eiweiß mit einer Prise Salz steif schlagen und den Zucker unter weiterem Schlagen einrieseln bis er sich aufgelöst hat"
       },
       {
         "description": "Mandeln & Rhabarber unterheben"
