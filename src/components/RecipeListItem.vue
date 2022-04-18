@@ -58,6 +58,10 @@ defineProps({
   overflow: hidden;
 
   color: var(--color-text);
+  background: var(--color-background);
+
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
 }
 
 h3 {
@@ -70,11 +74,6 @@ h3 {
 @media (min-width: 1024px) {
   .list-item {
     margin-top: 20px;
-  }
-  .list-image-container {
-    border: 1px solid var(--color-border);
-    background: var(--color-background);
-    border-radius: 8px;
   }
 }
 </style>
