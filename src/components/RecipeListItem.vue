@@ -11,9 +11,9 @@ defineProps({
 
 <template>
   <div class="list-item">
-    <div class="list-image">
+    <div class="list-image-container">
       <router-link :to="'/recipe/' + slug">
-        <img :src="listImage" />
+        <img class="list-image" :src="listImage" />
         <span class="list-draft" v-if="draft">🚧</span>
       </router-link>
     </div>
@@ -46,11 +46,18 @@ defineProps({
 }
 
 .list-image {
+    object-fit: cover;
+    min-height: 150px;
+    max-width: 100%;
+}
+
+.list-image-container {
   display: flex;
   place-items: center;
   place-content: center;
   width: 150px;
   height: 150px;
+  overflow: hidden;
 
   color: var(--color-text);
 }
@@ -66,12 +73,10 @@ h3 {
   .list-item {
     margin-top: 20px;
   }
-  .list-image {
+  .list-image-container {
     border: 1px solid var(--color-border);
     background: var(--color-background);
     border-radius: 8px;
-    width: 150px;
-    height: 150px;
   }
 }
 </style>
