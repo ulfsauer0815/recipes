@@ -173,7 +173,7 @@
   {
     "name": "Rhabarber Baiser Joghurt",
     "slug": "rhabarber-baiser-joghurt",
-    "listImage": "img/150px/rhabarber-baiser-joghurt.jpg",
+    "listImage": "img/300px/rhabarber-baiser-joghurt.jpg",
     "image": "img/rhabarber-baiser-joghurt.jpg",
     "shortDescription": "Baiser & Joghurt? Ja, klar!",
     "defaultServings": 5,
@@ -307,7 +307,7 @@
     "name": "Türkische Hack-Quiche",
     "draft": true,
     "slug": "tuerkische-hack-quiche",
-    "listImage": "img/150px/tuerkische-hack-quiche-2.jpg",
+    "listImage": "img/300px/tuerkische-hack-quiche-2.jpg",
     "image": "img/tuerkische-hack-quiche.jpg",
     "shortDescription": "mit Minze & Spitzpaprika",
     "description": "Unglaublich würzig-leckere Quiche!",

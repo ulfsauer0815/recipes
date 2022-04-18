@@ -2,7 +2,7 @@
 
 IN_DIR="public/img/original"
 OUT_DIR_MAIN="public/img"
-OUT_DIR_THUMBNAIL="public/img/150px"
+OUT_DIR_THUMBNAIL="public/img/300px"
 IGNORE_DIR="unsorted"
 
 function file_not_exists() {

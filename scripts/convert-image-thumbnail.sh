@@ -12,6 +12,6 @@ mkdir -p "$out_dir"
 # convert
 convert \
     -strip \
-    -resize x150 \
+    -resize x300 \
     -quality 50 \
     "$IN_FILE" "$OUT_FILE"
