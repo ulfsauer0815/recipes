@@ -173,8 +173,8 @@
   {
     "name": "Rhabarber Baiser Joghurt",
     "slug": "rhabarber-baiser-joghurt",
-    "listImage": "public/img/150px/rhabarber-baiser-joghurt-comp.jpg",
-    "image": "public/img/rhabarber-baiser-joghurt-comp.jpg",
+    "listImage": "img/150px/rhabarber-baiser-joghurt-comp.jpg",
+    "image": "img/rhabarber-baiser-joghurt-comp.jpg",
     "shortDescription": "Baiser & Joghurt? Ja, klar!",
     "defaultServings": 5,
     "baseServings": 5,
