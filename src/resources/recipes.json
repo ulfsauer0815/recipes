@@ -1,429 +1,429 @@
 [
-  {
-    "name": "Kürbissuppe",
-    "slug": "kokos-kurbissuppe",
-    "listImage": "https://via.placeholder.com/150x150",
-    "image": "https://via.placeholder.com/800x600",
-    "shortDescription": "mit Kokosmilch",
-    "description": "Die leckerste Kürbissuppe!",
-    "defaultServings": 6,
-    "baseServings": 6,
-    "tips": "6 Portionen passen sehr gut für einen großen Topf!",
-    "ingredients": [
-      {
-        "name": "Kürbis",
-        "quantity": 800,
-        "unit": "g"
-      },
-      {
-        "name": "Karotten",
-        "quantity": 600,
-        "unit": "g"
-      },
-      {
-        "name": "Kokosmilch",
-        "quantity": 300,
-        "unit": "ml"
-      },
-      {
-        "name": "Gemüsebrühe",
-        "quantity": 1,
-        "unit": "l"
-      },
-      {
-        "name": "Zwiebeln",
-        "quantity": 1.5
-      },
-      {
-        "name": "Ingwer",
-        "quantity": 15,
-        "unit": "g"
-      },
-      {
-        "name": "Zitronen",
-        "quantity": 0.5
-      },
-      {
-        "name": "Butter",
-        "quantity": 2,
-        "unit": "EL"
-      },
-      {
-        "name": "Sojasauce",
-        "quantity": 2,
-        "unit": "EL"
-      },
-      {
-        "name": "Muskatnuss"
-      },
-      {
-        "name": "Pfeffer"
-      },
-      {
-        "name": "Salz"
-      }
-    ],
-    "steps": [
-      {
-        "description": "Kürbis, Möhren, Ingwer und Zwiebeln schneiden und würfeln"
-      },
-      {
-        "description": "Zwiebeln in viel Butter andünsten"
-      },
-      {
-        "description": "Den Rest Gemüse dazugeben und etwas andünsten"
-      },
-      {
-        "description": "Mit Brühe aufgießen und ca. 20 min weichkochen"
-      },
-      {
-        "description": "Alles pürieren und mit restlichen Zutaten abschmecken"
-      }
-    ]
-  },
-  {
-    "name": "Masur Dal",
-    "slug": "masul-dal",
-    "listImage": "https://via.placeholder.com/150x150",
-    "image": "https://via.placeholder.com/800x600",
-    "shortDescription": "Rote Linsen Kokos Dal",
-    "defaultServings": 6,
-    "baseServings": 3,
-    "tips": "6 Portionen für einen großen Topf! Passt sehr gut von den geschälten Tomaten & Kokosmilch (jeweils 2 Dosen)",
-    "ingredients": [
-      {
-        "name": "Rote Linsen",
-        "quantity": 240,
-        "unit": "g"
-      },
-      {
-        "name": "Kokosmilch",
-        "quantity": 390,
-        "unit": "ml"
-      },
-      {
-        "name": "Tomaten (geschält)",
-        "quantity": 390,
-        "unit": "g",
-        "replacement": "Gestückelte Tomaten"
-      },
-      {
-        "name": "Ingwer",
-        "quantity": 30,
-        "unit": "g"
-      },
-      {
-        "name": "Zwiebeln",
-        "quantity": 1
-      },
-      {
-        "name": "Knoblauch",
-        "quantity": 1.5,
-        "unit": "Zehen"
-      },
-      {
-        "name": "Kokosöl",
-        "quantity": 3,
-        "unit": "TL"
-      },
-      {
-        "name": "Garam Masala",
-        "quantity": 9,
-        "unit": "g"
-      },
-      {
-        "name": "Chiliflocken",
-        "quantity": 0.75,
-        "unit": "TL"
-      },
-      {
-        "name": "Pfeffer"
-      },
-      {
-        "name": "Salz"
-      }
-    ],
-    "steps": [
-      {
-        "description": "Zwiebeln würfeln, Ingwer und Knoblauch klein hacken"
-      },
-      {
-        "description": "Kokosöl in einem großen Topf erhitzen und Zwiebeln 2-3 Minuten anschwitzen bis sie glasig sind"
-      },
-      {
-        "description": "Knoblauch und Ingwer hinzugeben und weitere 1-2 Minuten anschwitzen"
-      },
-      {
-        "description": "Garam Masala hinzugeben und etwas anrösten"
-      },
-      {
-        "description": "Geschälte Tomaten hinzugeben und rühren, dass nichts am Boden festklebt. Die Tomaten mit einem Löffel oder Pfannenwender in Stücke drücken"
-      },
-      {
-        "description": "Linsen waschen, dann hinzugeben und verrühren"
-      },
-      {
-        "description": "Kokosmilch unterrühren und 20 Minuten köcheln lassen"
-      },
-      {
-        "description": "Mit Salz, Pfeffer und Chiliflocken würzen"
-      }
-    ]
-  },
-  {
-    "name": "Rhabarber Baiser Joghurt",
-    "slug": "rhabarber-baiser-joghurt",
-    "listImage": "img/300px/rhabarber-baiser-joghurt-2.jpg",
-    "image": "img/rhabarber-baiser-joghurt-2.jpg",
-    "shortDescription": "Baiser & Joghurt? Ja, klar!",
-    "defaultServings": 5,
-    "baseServings": 5,
-    "ingredients": [
-      {
-        "name": "Rhabarber",
-        "quantity": 500,
-        "unit": "g"
-      },
-      {
-        "name": "Mandeln (gemahlen)",
-        "quantity": 200,
-        "unit": "g"
-      },
-      {
-        "name": "Zucker",
-        "quantity": 120,
-        "unit": "g"
-      },
-      {
-        "name": "Eier (Eiklar)",
-        "quantity": 4
-      }
-    ],
-    "steps": [
-      {
-        "description": "Ofen bei 200°C (Ober- & Unterhitze) vorheizen"
-      },
-      {
-        "description": "Rhabarber in Stücke schneiden"
-      },
-      {
-        "description": "Eier trennen"
-      },
-      {
-        "description": "Eiweiß mit einer Prise Salz steif schlagen und den Zucker unter weiterem Schlagen einrieseln bis er sich aufgelöst hat"
-      },
-      {
-        "description": "Mandeln & Rhabarber unterheben"
-      },
-      {
-        "description": "In einer Auflaufform ca. 30-35 Minuten backen"
-      }
-    ]
-  },
-  {
-    "name": "Spaghetti Bolognese",
-    "draft": true,
-    "slug": "spaghetti-bolognese",
-    "listImage": "https://via.placeholder.com/150x150",
-    "image": "https://via.placeholder.com/800x600",
-    "shortDescription": "Bolo is the best!",
-    "description": "Bolognese mit viel Spielraum für Kreativität.",
-    "defaultServings": 6,
-    "baseServings": 5,
-    "ingredients": [
-      {
-        "name": "Spaghetti",
-        "quantity": 800,
-        "unit": "g"
-      },
-      {
-        "name": "Hackfleisch",
-        "quantity": 300,
-        "unit": "g"
-      },
-      {
-        "name": "Karotten",
-        "quantity": 3
-      },
-      {
-        "name": "Zucchini",
-        "quantity": 1.5
-      },
-      {
-        "name": "Tomaten (gestückelt)",
-        "quantity": 800,
-        "unit": "g"
-      },
-      {
-        "name": "Tomaten (passiert)",
-        "quantity": 400,
-        "unit": "g"
-      },
-      {
-        "name": "Zwiebeln",
-        "quantity": 1
-      },
-      {
-        "name": "Knoblauch",
-        "quantity": 1,
-        "unit": "Zehen"
-      },
-      {
-        "name": "Thymian",
-        "quantity": 2.5,
-        "unit": "TL"
-      },
-      {
-        "name": "Mayoran",
-        "quantity": 1,
-        "unit": "TL"
-      },
-      {
-        "name": "Pfeffer"
-      },
-      {
-        "name": "Salz"
-      }
-    ],
-    "steps": [
-      {
-        "description": "Gemüse waschen"
-      },
-      {
-        "description": "Schnibbeln"
-      },
-      {
-        "description": "Zucchinis dünsten"
-      },
-      {
-        "description": "Hackfleisch anbraten"
-      },
-      {
-        "description": "Spaghetti kochen"
-      }
-    ]
-  },
-  {
-    "name": "Türkische Hack-Quiche",
-    "slug": "tuerkische-hack-quiche",
-    "listImage": "img/300px/tuerkische-hack-quiche-2.jpg",
-    "image": "img/tuerkische-hack-quiche.jpg",
-    "shortDescription": "mit Minze & Spitzpaprika",
-    "description": "Unglaublich würzig-leckere Quiche!",
-    "defaultServings": 6,
-    "baseServings": 6,
-    "tips": "6 Portionen für eine Quiche-Form. Den Quiche-Teig selbst vorbereiten oder fertig kaufen. Ein guter Selbstgemachter macht allerdings einen großen Unterschied!",
-    "ingredients": [
-      {
-        "name": "Hackfleisch",
-        "quantity": 500,
-        "unit": "g"
-      },
-      {
-        "name": "Spitzpaprika",
-        "quantity": 4.5
-      },
-      {
-        "name": "Zwiebeln",
-        "quantity": 2
-      },
-      {
-        "name": "Knoblauch",
-        "quantity": 1,
-        "unit": "Zehen"
-      },
-      {
-        "name": "Petersilie",
-        "quantity": 0.5,
-        "unit": "Bund"
-      },
-      {
-        "name": "Minze",
-        "quantity": 8,
-        "unit": "Stängel"
-      },
-      {
-        "name": "Feta",
-        "quantity": 120,
-        "unit": "g"
-      },
-      {
-        "name": "Tomatenmark",
-        "quantity": 4,
-        "unit": "EL"
-      },
-      {
-        "name": "Pul Biber",
-        "quantity": 1,
-        "unit": "TL"
-      },
-      {
-        "name": "Eier",
-        "quantity": 2
-      },
-      {
-        "name": "Joghurt",
-        "quantity": 200,
-        "unit": "g"
-      },
-      {
-        "name": "Oregano",
-        "quantity": 1,
-        "unit": "TL"
-      },
-      {
-        "name": "Pfeffer"
-      },
-      {
-        "name": "Salz"
-      },
-      {
-        "name": "Olivenöl"
-      }
-    ],
-    "steps": [
-      {
-        "description": "Ofen bei 220°C (Ober- & Unterhitze) vorheizen"
-      },
-      {
-        "description": "Spitzpaprika in ca. 1 cm lange Stücke würfeln"
-      },
-      {
-        "description": "Zwiebeln schneiden und Knoblauch klein hacken"
-      },
-      {
-        "description": "Petersilie und Minze klein hacken"
-      },
-      {
-        "description": "Spitzpaprika mit ein wenig Öl in einer Pfanne bei hoher Hitze für ca. 2-3 Minuten anbraten. Anschließend pfeffern, salzen und herausnehmen"
-      },
-      {
-        "description": "Mit etwas Öl erst Zwiebeln in der Pfanne anschwitzen bis sie leicht glasig sind, dann Knoblauch hinzugeben und für weitere 1-2 Minuten anbraten. Anschließend herausnehmen und zur Spitzpaprika geben"
-      },
-      {
-        "description": "Hackfleisch mit etwas Öl anbraten bis es leicht gebräunt ist und dabei mit Salz, Pfeffer, Oregano und Pul Biber abschmecken"
-      },
-      {
-        "description": "Tomatenmark unterrühren und weitere 1-2 Minuten anbraten"
-      },
-      {
-        "description": "Die Pfanne vom Herd nehmen und das Gemüse mit den frischen Kräutern unterrühren"
-      },
-      {
-        "description": "Joghurt und Ei verquirlen und mit Salz und Pfeffer würzen"
-      },
-      {
-        "description": "Quiche-Teig in einer Form ausrollen"
-      },
-      {
-        "description": "Pfanneninhalt in die Form geben und gleichmäßig ausbreiten"
-      },
-      {
-        "description": "Schafskäse darüber bröseln und die Joghurt-Ei Mischung darübergießen"
-      },
-      {
-        "description": "Im Ofen für ca. 35 Minuten backen"
-      }
-    ]
-  }
+    {
+        "name": "Kürbissuppe",
+        "slug": "kokos-kurbissuppe",
+        "listImage": "https://via.placeholder.com/150x150",
+        "image": "https://via.placeholder.com/800x600",
+        "shortDescription": "mit Kokosmilch",
+        "description": "Die leckerste Kürbissuppe!",
+        "defaultServings": 6,
+        "baseServings": 6,
+        "tips": "6 Portionen passen sehr gut für einen großen Topf!",
+        "ingredients": [
+            {
+                "name": "Kürbis",
+                "quantity": 800,
+                "unit": "g"
+            },
+            {
+                "name": "Karotten",
+                "quantity": 600,
+                "unit": "g"
+            },
+            {
+                "name": "Kokosmilch",
+                "quantity": 300,
+                "unit": "ml"
+            },
+            {
+                "name": "Gemüsebrühe",
+                "quantity": 1,
+                "unit": "l"
+            },
+            {
+                "name": "Zwiebeln",
+                "quantity": 1.5
+            },
+            {
+                "name": "Ingwer",
+                "quantity": 15,
+                "unit": "g"
+            },
+            {
+                "name": "Zitronen",
+                "quantity": 0.5
+            },
+            {
+                "name": "Butter",
+                "quantity": 2,
+                "unit": "EL"
+            },
+            {
+                "name": "Sojasauce",
+                "quantity": 2,
+                "unit": "EL"
+            },
+            {
+                "name": "Muskatnuss"
+            },
+            {
+                "name": "Pfeffer"
+            },
+            {
+                "name": "Salz"
+            }
+        ],
+        "steps": [
+            {
+                "description": "Kürbis, Möhren, Ingwer und Zwiebeln schneiden und würfeln"
+            },
+            {
+                "description": "Zwiebeln in viel Butter andünsten"
+            },
+            {
+                "description": "Den Rest Gemüse dazugeben und etwas andünsten"
+            },
+            {
+                "description": "Mit Brühe aufgießen und ca. 20 min weichkochen"
+            },
+            {
+                "description": "Alles pürieren und mit restlichen Zutaten abschmecken"
+            }
+        ]
+    },
+    {
+        "name": "Masur Dal",
+        "slug": "masul-dal",
+        "listImage": "https://via.placeholder.com/150x150",
+        "image": "https://via.placeholder.com/800x600",
+        "shortDescription": "Rote Linsen Kokos Dal",
+        "defaultServings": 6,
+        "baseServings": 3,
+        "tips": "6 Portionen für einen großen Topf! Passt sehr gut von den geschälten Tomaten & Kokosmilch (jeweils 2 Dosen)",
+        "ingredients": [
+            {
+                "name": "Rote Linsen",
+                "quantity": 240,
+                "unit": "g"
+            },
+            {
+                "name": "Kokosmilch",
+                "quantity": 390,
+                "unit": "ml"
+            },
+            {
+                "name": "Tomaten (geschält)",
+                "quantity": 390,
+                "unit": "g",
+                "replacement": "Gestückelte Tomaten"
+            },
+            {
+                "name": "Ingwer",
+                "quantity": 30,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebeln",
+                "quantity": 1
+            },
+            {
+                "name": "Knoblauch",
+                "quantity": 1.5,
+                "unit": "Zehen"
+            },
+            {
+                "name": "Kokosöl",
+                "quantity": 3,
+                "unit": "TL"
+            },
+            {
+                "name": "Garam Masala",
+                "quantity": 9,
+                "unit": "g"
+            },
+            {
+                "name": "Chiliflocken",
+                "quantity": 0.75,
+                "unit": "TL"
+            },
+            {
+                "name": "Pfeffer"
+            },
+            {
+                "name": "Salz"
+            }
+        ],
+        "steps": [
+            {
+                "description": "Zwiebeln würfeln, Ingwer und Knoblauch klein hacken"
+            },
+            {
+                "description": "Kokosöl in einem großen Topf erhitzen und Zwiebeln 2-3 Minuten anschwitzen bis sie glasig sind"
+            },
+            {
+                "description": "Knoblauch und Ingwer hinzugeben und weitere 1-2 Minuten anschwitzen"
+            },
+            {
+                "description": "Garam Masala hinzugeben und etwas anrösten"
+            },
+            {
+                "description": "Geschälte Tomaten hinzugeben und rühren, dass nichts am Boden festklebt. Die Tomaten mit einem Löffel oder Pfannenwender in Stücke drücken"
+            },
+            {
+                "description": "Linsen waschen, dann hinzugeben und verrühren"
+            },
+            {
+                "description": "Kokosmilch unterrühren und 20 Minuten köcheln lassen"
+            },
+            {
+                "description": "Mit Salz, Pfeffer und Chiliflocken würzen"
+            }
+        ]
+    },
+    {
+        "name": "Rhabarber Baiser Joghurt",
+        "slug": "rhabarber-baiser-joghurt",
+        "listImage": "img/300px/rhabarber-baiser-joghurt-2.jpg",
+        "image": "img/rhabarber-baiser-joghurt-2.jpg",
+        "shortDescription": "Baiser & Joghurt? Ja, klar!",
+        "defaultServings": 5,
+        "baseServings": 5,
+        "ingredients": [
+            {
+                "name": "Rhabarber",
+                "quantity": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Mandeln (gemahlen)",
+                "quantity": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Zucker",
+                "quantity": 120,
+                "unit": "g"
+            },
+            {
+                "name": "Eier (Eiklar)",
+                "quantity": 4
+            }
+        ],
+        "steps": [
+            {
+                "description": "Ofen bei 200°C (Ober- & Unterhitze) vorheizen"
+            },
+            {
+                "description": "Rhabarber in Stücke schneiden"
+            },
+            {
+                "description": "Eier trennen"
+            },
+            {
+                "description": "Eiweiß mit einer Prise Salz steif schlagen und den Zucker unter weiterem Schlagen einrieseln bis er sich aufgelöst hat"
+            },
+            {
+                "description": "Mandeln & Rhabarber unterheben"
+            },
+            {
+                "description": "In einer Auflaufform ca. 30-35 Minuten backen"
+            }
+        ]
+    },
+    {
+        "name": "Spaghetti Bolognese",
+        "draft": true,
+        "slug": "spaghetti-bolognese",
+        "listImage": "https://via.placeholder.com/150x150",
+        "image": "https://via.placeholder.com/800x600",
+        "shortDescription": "Bolo is the best!",
+        "description": "Bolognese mit viel Spielraum für Kreativität.",
+        "defaultServings": 6,
+        "baseServings": 5,
+        "ingredients": [
+            {
+                "name": "Spaghetti",
+                "quantity": 800,
+                "unit": "g"
+            },
+            {
+                "name": "Hackfleisch",
+                "quantity": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Karotten",
+                "quantity": 3
+            },
+            {
+                "name": "Zucchini",
+                "quantity": 1.5
+            },
+            {
+                "name": "Tomaten (gestückelt)",
+                "quantity": 800,
+                "unit": "g"
+            },
+            {
+                "name": "Tomaten (passiert)",
+                "quantity": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebeln",
+                "quantity": 1
+            },
+            {
+                "name": "Knoblauch",
+                "quantity": 1,
+                "unit": "Zehen"
+            },
+            {
+                "name": "Thymian",
+                "quantity": 2.5,
+                "unit": "TL"
+            },
+            {
+                "name": "Mayoran",
+                "quantity": 1,
+                "unit": "TL"
+            },
+            {
+                "name": "Pfeffer"
+            },
+            {
+                "name": "Salz"
+            }
+        ],
+        "steps": [
+            {
+                "description": "Gemüse waschen"
+            },
+            {
+                "description": "Schnibbeln"
+            },
+            {
+                "description": "Zucchinis dünsten"
+            },
+            {
+                "description": "Hackfleisch anbraten"
+            },
+            {
+                "description": "Spaghetti kochen"
+            }
+        ]
+    },
+    {
+        "name": "Türkische Hack-Quiche",
+        "slug": "tuerkische-hack-quiche",
+        "listImage": "img/300px/tuerkische-hack-quiche-2.jpg",
+        "image": "img/tuerkische-hack-quiche.jpg",
+        "shortDescription": "mit Minze & Spitzpaprika",
+        "description": "Unglaublich würzig-leckere Quiche!",
+        "defaultServings": 6,
+        "baseServings": 6,
+        "tips": "6 Portionen für eine Quiche-Form. Den Quiche-Teig selbst vorbereiten oder fertig kaufen. Ein guter Selbstgemachter macht allerdings einen großen Unterschied!",
+        "ingredients": [
+            {
+                "name": "Hackfleisch",
+                "quantity": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Spitzpaprika",
+                "quantity": 4.5
+            },
+            {
+                "name": "Zwiebeln",
+                "quantity": 2
+            },
+            {
+                "name": "Knoblauch",
+                "quantity": 1,
+                "unit": "Zehen"
+            },
+            {
+                "name": "Petersilie",
+                "quantity": 0.5,
+                "unit": "Bund"
+            },
+            {
+                "name": "Minze",
+                "quantity": 8,
+                "unit": "Stängel"
+            },
+            {
+                "name": "Feta",
+                "quantity": 120,
+                "unit": "g"
+            },
+            {
+                "name": "Tomatenmark",
+                "quantity": 4,
+                "unit": "EL"
+            },
+            {
+                "name": "Pul Biber",
+                "quantity": 1,
+                "unit": "TL"
+            },
+            {
+                "name": "Eier",
+                "quantity": 2
+            },
+            {
+                "name": "Joghurt",
+                "quantity": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Oregano",
+                "quantity": 1,
+                "unit": "TL"
+            },
+            {
+                "name": "Pfeffer"
+            },
+            {
+                "name": "Salz"
+            },
+            {
+                "name": "Olivenöl"
+            }
+        ],
+        "steps": [
+            {
+                "description": "Ofen bei 220°C (Ober- & Unterhitze) vorheizen"
+            },
+            {
+                "description": "Spitzpaprika in ca. 1 cm lange Stücke würfeln"
+            },
+            {
+                "description": "Zwiebeln schneiden und Knoblauch klein hacken"
+            },
+            {
+                "description": "Petersilie und Minze klein hacken"
+            },
+            {
+                "description": "Spitzpaprika mit ein wenig Öl in einer Pfanne bei hoher Hitze für ca. 2-3 Minuten anbraten. Anschließend pfeffern, salzen und herausnehmen"
+            },
+            {
+                "description": "Mit etwas Öl erst Zwiebeln in der Pfanne anschwitzen bis sie leicht glasig sind, dann Knoblauch hinzugeben und für weitere 1-2 Minuten anbraten. Anschließend herausnehmen und zur Spitzpaprika geben"
+            },
+            {
+                "description": "Hackfleisch mit etwas Öl anbraten bis es leicht gebräunt ist und dabei mit Salz, Pfeffer, Oregano und Pul Biber abschmecken"
+            },
+            {
+                "description": "Tomatenmark unterrühren und weitere 1-2 Minuten anbraten"
+            },
+            {
+                "description": "Die Pfanne vom Herd nehmen und das Gemüse mit den frischen Kräutern unterrühren"
+            },
+            {
+                "description": "Joghurt und Ei verquirlen und mit Salz und Pfeffer würzen"
+            },
+            {
+                "description": "Quiche-Teig in einer Form ausrollen"
+            },
+            {
+                "description": "Pfanneninhalt in die Form geben und gleichmäßig ausbreiten"
+            },
+            {
+                "description": "Schafskäse darüber bröseln und die Joghurt-Ei Mischung darübergießen"
+            },
+            {
+                "description": "Im Ofen für ca. 35 Minuten backen"
+            }
+        ]
+    }
 ]
