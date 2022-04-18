@@ -305,7 +305,6 @@
   },
   {
     "name": "Türkische Hack-Quiche",
-    "draft": true,
     "slug": "tuerkische-hack-quiche",
     "listImage": "img/300px/tuerkische-hack-quiche-2.jpg",
     "image": "img/tuerkische-hack-quiche.jpg",
@@ -313,7 +312,7 @@
     "description": "Unglaublich würzig-leckere Quiche!",
     "defaultServings": 6,
     "baseServings": 6,
-    "tips": "6 Portionen für eine Quiche-Form. Den Quiche-Teig selbst vorbereiten oder fertig kaufen. Ein guter Selbstgemachter macht allerdings einen gr0ßen Unterschied!",
+    "tips": "6 Portionen für eine Quiche-Form. Den Quiche-Teig selbst vorbereiten oder fertig kaufen. Ein guter Selbstgemachter macht allerdings einen großen Unterschied!",
     "ingredients": [
       {
         "name": "Hackfleisch",
@@ -321,7 +320,7 @@
         "unit": "g"
       },
       {
-        "name": "Spitzpaprika (grün)",
+        "name": "Spitzpaprika",
         "quantity": 4.5
       },
       {
@@ -380,6 +379,50 @@
       },
       {
         "name": "Olivenöl"
+      }
+    ],
+    "steps": [
+      {
+        "description": "Ofen bei 220°C (Ober- & Unterhitze) vorheizen"
+      },
+      {
+        "description": "Spitzpaprika in ca. 1 cm lange Stücke würfeln"
+      },
+      {
+        "description": "Zwiebeln schneiden und Knoblauch klein hacken"
+      },
+      {
+        "description": "Petersilie und Minze klein hacken"
+      },
+      {
+        "description": "Spitzpaprika mit ein wenig Öl in einer Pfanne bei hoher Hitze für ca. 2-3 Minuten anbraten. Anschließend pfeffern, salzen und herausnehmen"
+      },
+      {
+        "description": "Mit etwas Öl erst Zwiebeln in der Pfanne anschwitzen bis sie leicht glasig sind, dann Knoblauch hinzugeben und für weitere 1-2 Minuten anbraten. Anschließend herausnehmen und zur Spitzpaprika geben"
+      },
+      {
+        "description": "Hackfleisch mit etwas Öl anbraten bis es leicht gebräunt ist und dabei mit Salz, Pfeffer, Oregano und Pul Biber abschmecken"
+      },
+      {
+        "description": "Tomatenmark unterrühren und weitere 1-2 Minuten anbraten"
+      },
+      {
+        "description": "Die Pfanne vom Herd nehmen und das Gemüse mit den frischen Kräutern unterrühren"
+      },
+      {
+        "description": "Joghurt und Ei verquirlen und mit Salz und Pfeffer würzen"
+      },
+      {
+        "description": "Quiche-Teig in einer Form ausrollen"
+      },
+      {
+        "description": "Pfanneninhalt in die Form geben und gleichmäßig ausbreiten"
+      },
+      {
+        "description": "Schafskäse darüber bröseln und die Joghurt-Ei Mischung darübergießen"
+      },
+      {
+        "description": "Im Ofen für ca. 35 Minuten backen"
       }
     ]
   }
