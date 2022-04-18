@@ -53,8 +53,6 @@ defineProps({
 
 .list-image-container {
   display: flex;
-  place-items: center;
-  place-content: center;
   width: 150px;
   height: 150px;
   overflow: hidden;
