@@ -364,7 +364,8 @@
             {
                 "name": "Pul Biber",
                 "quantity": 1,
-                "unit": "TL"
+                "unit": "TL",
+                "replacement": "Chiliflocken oder Chilipulver"
             },
             {
                 "name": "Oregano",
