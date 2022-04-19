@@ -56,7 +56,7 @@ document.title = name.value;
       />
 
       <div class="item-details-tips section center" v-if="tips">
-        <h3>Hinweise & Tips</h3>
+        <h3>Tipps</h3>
         <div v-text="tips" class=""></div>
       </div>
 
