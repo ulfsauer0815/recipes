@@ -201,7 +201,7 @@
         ],
         "steps": [
             {
-                "description": "Ofen bei 200°C (Ober- & Unterhitze) vorheizen"
+                "description": "Ofen auf 200°C (Ober- & Unterhitze) vorheizen"
             },
             {
                 "description": "Rhabarber in Stücke schneiden"
@@ -383,7 +383,7 @@
         ],
         "steps": [
             {
-                "description": "Ofen bei 220°C (Ober- & Unterhitze) vorheizen"
+                "description": "Ofen auf 220°C (Ober- & Unterhitze) vorheizen"
             },
             {
                 "description": "Spitzpaprika in ca. 1 cm lange Stücke würfeln"
