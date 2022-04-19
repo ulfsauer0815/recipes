@@ -44,12 +44,12 @@
                 "quantity": 0.5
             },
             {
-                "name": "Butter",
+                "name": "Sojasauce",
                 "quantity": 2,
                 "unit": "EL"
             },
             {
-                "name": "Sojasauce",
+                "name": "Butter",
                 "quantity": 2,
                 "unit": "EL"
             },
@@ -185,6 +185,10 @@
                 "unit": "g"
             },
             {
+                "name": "Eier (Eiweiß)",
+                "quantity": 4
+            },
+            {
                 "name": "Mandeln (gemahlen)",
                 "quantity": 200,
                 "unit": "g"
@@ -193,10 +197,6 @@
                 "name": "Zucker",
                 "quantity": 120,
                 "unit": "g"
-            },
-            {
-                "name": "Eier (Eiweiß)",
-                "quantity": 4
             }
         ],
         "steps": [
@@ -324,18 +324,18 @@
                 "quantity": 4.5
             },
             {
-                "name": "Zwiebeln",
+                "name": "Feta",
+                "quantity": 120,
+                "unit": "g"
+            },
+            {
+                "name": "Eier",
                 "quantity": 2
             },
             {
-                "name": "Knoblauch",
-                "quantity": 1,
-                "unit": "Zehen"
-            },
-            {
-                "name": "Petersilie",
-                "quantity": 0.5,
-                "unit": "Bund"
+                "name": "Joghurt",
+                "quantity": 200,
+                "unit": "g"
             },
             {
                 "name": "Minze",
@@ -343,9 +343,18 @@
                 "unit": "Stängel"
             },
             {
-                "name": "Feta",
-                "quantity": 120,
-                "unit": "g"
+                "name": "Petersilie",
+                "quantity": 0.5,
+                "unit": "Bund"
+            },
+            {
+                "name": "Zwiebeln",
+                "quantity": 2
+            },
+            {
+                "name": "Knoblauch",
+                "quantity": 1,
+                "unit": "Zehen"
             },
             {
                 "name": "Tomatenmark",
@@ -356,15 +365,6 @@
                 "name": "Pul Biber",
                 "quantity": 1,
                 "unit": "TL"
-            },
-            {
-                "name": "Eier",
-                "quantity": 2
-            },
-            {
-                "name": "Joghurt",
-                "quantity": 200,
-                "unit": "g"
             },
             {
                 "name": "Oregano",
