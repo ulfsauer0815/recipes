@@ -65,19 +65,79 @@
         ],
         "steps": [
             {
-                "description": "Kürbis, Möhren, Ingwer und Zwiebeln schneiden und würfeln"
+                "description": "Kürbis, Möhren in Würfel schneiden",
+                "ingredients": [
+                    {
+                        "name": "Kürbis",
+                        "quantity": 800,
+                        "unit": "g"
+                    },
+                    {
+                        "name": "Karotten",
+                        "quantity": 600,
+                        "unit": "g"
+                    }
+                ]
             },
             {
-                "description": "Zwiebeln in viel Butter andünsten"
+                "description": "Zwiebeln und Ingwer grob hacken",
+                "ingredients": [
+                    {
+                        "name": "Zwiebeln",
+                        "quantity": 1.5
+                    },
+                    {
+                        "name": "Ingwer",
+                        "quantity": 15,
+                        "unit": "g"
+                    }
+                ]
+            },
+            {
+                "description": "Zwiebeln in viel Butter andünsten",
+                "ingredients": [
+                    {
+                        "name": "Butter",
+                        "quantity": 2,
+                        "unit": "EL"
+                    }
+                ]
             },
             {
                 "description": "Den Rest Gemüse dazugeben und etwas andünsten"
             },
             {
-                "description": "Mit Brühe aufgießen und ca. 20 min weichkochen"
+                "description": "Mit Brühe aufgießen und ca. 20 min weichkochen",
+                "ingredients": [
+                    {
+                        "name": "Gemüsebrühe",
+                        "quantity": 1,
+                        "unit": "l"
+                    }
+                ]
             },
             {
-                "description": "Alles pürieren und mit restlichen Zutaten abschmecken"
+                "description": "Alles pürieren und mit restlichen Zutaten abschmecken",
+                "ingredients": [
+                    {
+                        "name": "Zitronen",
+                        "quantity": 0.5
+                    },
+                    {
+                        "name": "Sojasauce",
+                        "quantity": 2,
+                        "unit": "EL"
+                    },
+                    {
+                        "name": "Muskatnuss"
+                    },
+                    {
+                        "name": "Pfeffer"
+                    },
+                    {
+                        "name": "Salz"
+                    }
+                ]
             }
         ]
     },
