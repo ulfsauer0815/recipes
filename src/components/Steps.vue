@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import type { Step } from "@/domain/types";
+import StepIngredientList from "./StepIngredientList.vue";
 
 defineProps<{
   steps: Step[];
+  baseServings?: number;
+  servings: number;
 }>();
 </script>
 
@@ -11,9 +14,13 @@ defineProps<{
     <h3>Schritte</h3>
     <div class="steps">
       <div class="step" v-for="step in steps" :key="step.description">
-        <span class="step-description">
-          {{ step.description }}
-        </span>
+        <div v-text="step.description" class="step-description" />
+          <StepIngredientList
+            v-if="step.ingredients"
+            :ingredients="step.ingredients"
+            :baseServings="baseServings"
+            :servings="servings"
+          />
       </div>
     </div>
   </div>

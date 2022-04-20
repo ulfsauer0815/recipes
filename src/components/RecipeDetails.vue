@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { toRef } from "vue";
+import { toRef, ref } from "vue";
 import { useRoute } from "vue-router";
 import IngredientList from "./IngredientList.vue";
 import Steps from "./Steps.vue";
@@ -22,6 +22,17 @@ const props = defineProps<{
 
 const name = toRef(props, "name");
 
+const servings = ref(props.defaultServings || props.baseServings || 1);
+
+function inc() {
+  servings.value++;
+}
+function dec() {
+  if (servings.value > 1) {
+    servings.value--;
+  }
+}
+
 document.title = name.value;
 </script>
 
@@ -39,10 +50,16 @@ document.title = name.value;
         class="item-details-short-description section"
       ></div>
 
+      <div class="servings-input-group">
+        <input type="button" value="-" class="button-minus" @click="dec()" />
+        <input type="number" min="1" v-model="servings" />
+        <input type="button" value="+" class="button-plus" @click="inc()" />
+      </div>
+
       <IngredientList
         v-if="ingredients"
         :ingredients="ingredients"
-        :defaultServings="defaultServings"
+        :servings="servings"
         :baseServings="baseServings"
       />
 
@@ -61,7 +78,13 @@ document.title = name.value;
       </div>
 
       <div class="item-details-steps section">
-        <Steps class="item-details-steps" v-if="steps" :steps="steps" />
+        <Steps
+          class="item-details-steps"
+          v-if="steps"
+          :steps="steps"
+          :baseServings="baseServings"
+          :servings="servings"
+        />
       </div>
     </div>
   </div>
@@ -117,6 +140,59 @@ h3 {
   margin-top: 1rem;
   margin-bottom: 0.4rem;
   color: var(--color-heading);
+}
+
+/* servings input */
+
+.servings-input-group input[type="button"] {
+  -webkit-appearance: button;
+  -moz-appearance: textfield;
+  cursor: pointer;
+  border: 0px solid #eeeeee;
+  background: var(--button-soft);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.servings-input-group {
+  white-space: nowrap;
+  margin: 15px 0;
+}
+
+.servings-input-group .button-minus,
+.servings-input-group .button-plus {
+  font-weight: bold;
+  height: 38px;
+  width: 38px;
+}
+
+.servings-input-group {
+  text-align: center;
+}
+
+.servings-input-group input[type="number"] {
+  border: 0px solid #eeeeee;
+  background: var(--color-background);
+  outline: none;
+
+  padding: 10px;
+  width: 50px;
+  height: 40px;
+
+  text-align: center;
+  font-size: 15px;
+
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+.servings-input-group input[type="number"]::-webkit-inner-spin-button,
+.servings-input-group input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 @media (min-width: 1024px) {

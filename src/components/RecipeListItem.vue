@@ -46,9 +46,9 @@ defineProps({
 }
 
 .list-image {
-    object-fit: cover;
-    min-height: 150px;
-    max-width: 100%;
+  object-fit: cover;
+  min-height: 150px;
+  max-width: 100%;
 }
 
 .list-image-container {

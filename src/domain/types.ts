@@ -7,4 +7,5 @@ export interface Ingredient {
 
 export interface Step {
   description: string;
+  ingredients?: Ingredient[];
 }
