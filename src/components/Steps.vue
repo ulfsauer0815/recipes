@@ -15,12 +15,12 @@ defineProps<{
     <div class="steps">
       <div class="step" v-for="step in steps" :key="step.description">
         <div v-text="step.description" class="step-description" />
-          <StepIngredientList
-            v-if="step.ingredients"
-            :ingredients="step.ingredients"
-            :baseServings="baseServings"
-            :servings="servings"
-          />
+        <StepIngredientList
+          v-if="step.ingredients"
+          :ingredients="step.ingredients"
+          :baseServings="baseServings"
+          :servings="servings"
+        />
       </div>
     </div>
   </div>
