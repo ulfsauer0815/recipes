@@ -204,16 +204,43 @@
                 "description": "Ofen auf 200°C (Ober- & Unterhitze) vorheizen"
             },
             {
-                "description": "Rhabarber in Stücke schneiden"
+                "description": "Rhabarber in Stücke schneiden",
+                "ingredients": [
+                    {
+                        "name": "Rhabarber",
+                        "quantity": 500,
+                        "unit": "g"
+                    }
+                ]
             },
             {
-                "description": "Eier trennen"
+                "description": "Eier trennen",
+                "ingredients": [
+                    {
+                        "name": "Eier (Eiweiß)",
+                        "quantity": 4
+                    }
+                ]
             },
             {
-                "description": "Eiweiß mit einer Prise Salz steif schlagen und den Zucker unter weiterem Schlagen einrieseln bis er sich aufgelöst hat"
+                "description": "Eiweiß mit einer Prise Salz steif schlagen und den Zucker unter weiterem Schlagen einrieseln bis er sich aufgelöst hat",
+                "ingredients": [
+                    {
+                        "name": "Zucker",
+                        "quantity": 120,
+                        "unit": "g"
+                    }
+                ]
             },
             {
-                "description": "Mandeln & Rhabarber unterheben"
+                "description": "Gemahlene Mandeln und Rhabarber unterheben",
+                "ingredients": [
+                    {
+                        "name": "Mandeln (gemahlen)",
+                        "quantity": 200,
+                        "unit": "g"
+                    }
+                ]
             },
             {
                 "description": "In einer Auflaufform ca. 30-35 Minuten backen"
