@@ -387,13 +387,42 @@
                 "description": "Ofen auf 220°C (Ober- & Unterhitze) vorheizen"
             },
             {
-                "description": "Spitzpaprika in ca. 1 cm lange Stücke würfeln"
+                "description": "Spitzpaprika in ca. 1 cm lange Stücke würfeln",
+                "ingredients": [
+                    {
+                        "name": "Spitzpaprika",
+                        "quantity": 4.5
+                    }
+                ]
             },
             {
-                "description": "Zwiebeln schneiden und Knoblauch klein hacken"
+                "description": "Zwiebeln schneiden und Knoblauch klein hacken",
+                "ingredients": [
+                    {
+                        "name": "Zwiebeln",
+                        "quantity": 2
+                    },
+                    {
+                        "name": "Knoblauch",
+                        "quantity": 1,
+                        "unit": "Zehen"
+                    }
+                ]
             },
             {
-                "description": "Petersilie und Minze klein hacken"
+                "description": "Petersilie und Minze klein hacken",
+                "ingredients": [
+                    {
+                        "name": "Petersilie",
+                        "quantity": 0.5,
+                        "unit": "Bund"
+                    },
+                    {
+                        "name": "Minze",
+                        "quantity": 8,
+                        "unit": "Stängel"
+                    }
+                ]
             },
             {
                 "description": "Spitzpaprika mit ein wenig Öl in einer Pfanne bei hoher Hitze für ca. 2-3 Minuten anbraten. Anschließend pfeffern, salzen und herausnehmen"
@@ -402,16 +431,51 @@
                 "description": "Mit etwas Öl erst Zwiebeln in der Pfanne anschwitzen bis sie leicht glasig sind, dann Knoblauch hinzugeben und für weitere 1-2 Minuten anbraten. Anschließend herausnehmen und zur Spitzpaprika geben"
             },
             {
-                "description": "Hackfleisch mit etwas Öl anbraten bis es leicht gebräunt ist und dabei mit Salz, Pfeffer, Oregano und Pul Biber abschmecken"
+                "description": "Hackfleisch mit etwas Öl anbraten bis es leicht gebräunt ist und dabei mit Salz, Pfeffer, Oregano und Pul Biber abschmecken",
+                "ingredients": [
+                    {
+                        "name": "Hackfleisch",
+                        "quantity": 500,
+                        "unit": "g"
+                    },
+                    {
+                        "name": "Oregano",
+                        "quantity": 1,
+                        "unit": "TL"
+                    },
+                    {
+                        "name": "Pul Piper",
+                        "quantity": 1,
+                        "unit": "TL"
+                    }
+                ]
             },
             {
-                "description": "Tomatenmark unterrühren und weitere 1-2 Minuten anbraten"
+                "description": "Tomatenmark unterrühren und weitere 1-2 Minuten anbraten",
+                "ingredients": [
+                    {
+                        "name": "Tomatenmark",
+                        "quantity": 4,
+                        "unit": "EL"
+                    }
+                ]
             },
             {
                 "description": "Die Pfanne vom Herd nehmen und das Hackfleisch mit dem Gemüse und den frischen Kräutern vermengen"
             },
             {
-                "description": "Joghurt und Ei verquirlen und mit Salz und Pfeffer würzen"
+                "description": "Joghurt und Ei verquirlen und mit Salz und Pfeffer würzen",
+                "ingredients": [
+                    {
+                        "name": "Joghurt",
+                        "quantity": 200,
+                        "unit": "g"
+                    },
+                    {
+                        "name": "Eier",
+                        "quantity": 2
+                    }
+                ]
             },
             {
                 "description": "Quiche-Teig in einer Form ausrollen"
@@ -420,7 +484,14 @@
                 "description": "Pfanneninhalt in die Form geben und gleichmäßig ausbreiten"
             },
             {
-                "description": "Schafskäse darüber bröseln und die Joghurt-Ei Mischung darübergießen"
+                "description": "Feta darüber bröseln und die Joghurt-Ei Mischung darübergießen",
+                "ingredients": [
+                    {
+                        "name": "Feta",
+                        "quantity": 120,
+                        "unit": "g"
+                    }
+                ]
             },
             {
                 "description": "Im Ofen für ca. 35 Minuten backen"
