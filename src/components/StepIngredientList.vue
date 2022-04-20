@@ -41,7 +41,7 @@ function getIngredientAmount(ingredient: Ingredient) {
 
 <style scoped>
 .step-ingredient {
-  color: grey;
+  color: var(--color-text-faded);
   font-size: 0.95em;
   font-style: italic;
 }
