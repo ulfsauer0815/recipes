@@ -205,28 +205,86 @@
         ],
         "steps": [
             {
-                "description": "Zwiebeln würfeln, Ingwer und Knoblauch klein hacken"
+                "description": "Zwiebeln würfeln, Ingwer und Knoblauch klein hacken",
+                "ingredients": [
+                    {
+                        "name": "Zwiebeln",
+                        "quantity": 1
+                    },
+                    {
+                        "name": "Ingwer",
+                        "quantity": 30,
+                        "unit": "g"
+                    },
+                    {
+                        "name": "Knoblauch",
+                        "quantity": 1.5,
+                        "unit": "Zehen"
+                    }
+                ]
             },
             {
-                "description": "Kokosöl in einem großen Topf erhitzen und Zwiebeln 2-3 Minuten anschwitzen bis sie glasig sind"
+                "description": "Kokosöl in einem großen Topf erhitzen und Zwiebeln 2-3 Minuten anschwitzen bis sie glasig sind",
+                "ingredients": [
+                    {
+                        "name": "Kokosöl",
+                        "quantity": 3,
+                        "unit": "TL"
+                    }
+                ]
             },
             {
                 "description": "Knoblauch und Ingwer hinzugeben und weitere 1-2 Minuten anschwitzen"
             },
             {
-                "description": "Garam Masala hinzugeben und etwas anrösten"
+                "description": "Garam Masala hinzugeben und etwas anrösten",
+                "ingredients": [
+                    {
+                        "name": "Garam Masala",
+                        "quantity": 9,
+                        "unit": "g"
+                    }
+                ]
             },
             {
-                "description": "Geschälte Tomaten hinzugeben und rühren, dass nichts am Boden festklebt. Die Tomaten mit einem Löffel oder Pfannenwender in Stücke drücken"
+                "description": "Geschälte Tomaten hinzugeben und rühren, dass nichts am Boden festklebt. Die Tomaten mit einem Löffel oder Pfannenwender in Stücke drücken",
+                "ingredients": [
+                    {
+                        "name": "Tomaten (geschält)",
+                        "quantity": 390,
+                        "unit": "g"
+                    }
+                ]
             },
             {
-                "description": "Linsen waschen, dann hinzugeben und verrühren"
+                "description": "Linsen waschen, dann hinzugeben und verrühren",
+                "ingredients": [
+                    {
+                        "name": "Rote Linsen",
+                        "quantity": 240,
+                        "unit": "g"
+                    }
+                ]
             },
             {
-                "description": "Kokosmilch unterrühren und 20 Minuten köcheln lassen"
+                "description": "Kokosmilch unterrühren und 20 Minuten köcheln lassen",
+                "ingredients": [
+                    {
+                        "name": "Rote Linsen",
+                        "quantity": 240,
+                        "unit": "g"
+                    }
+                ]
             },
             {
-                "description": "Mit Salz, Pfeffer und Chiliflocken würzen"
+                "description": "Mit Salz, Pfeffer und Chiliflocken würzen",
+                "ingredients": [
+                    {
+                        "name": "Chiliflocken",
+                        "quantity": 0.75,
+                        "unit": "TL"
+                    }
+                ]
             }
         ]
     },
