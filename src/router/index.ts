@@ -5,6 +5,7 @@ import {
 } from "vue-router";
 import RecipeListView from "../views/RecipeListView.vue";
 import RecipeDetailsView from "../views/RecipeDetailsView.vue";
+import NotFoundView from "../views/NotFoundView.vue";
 
 const history =
   import.meta.env.VITE_HISTORY_MODE == "hash"
@@ -25,6 +26,12 @@ const router = createRouter({
       name: "recipe",
       props: true,
       component: RecipeDetailsView,
+    },
+
+    {
+      path: "/:pathMatch(.*)*",
+      name: "not-found",
+      component: NotFoundView,
     },
   ],
   scrollBehavior(to, from, savedPosition) {

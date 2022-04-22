@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import RecipeDetails from "@/components/RecipeDetails.vue";
+import RecipeDetailsNotFound from "@/components/RecipeDetailsNotFound.vue";
 import { useRecipeStore } from "@/stores/recipes";
 
 const props = defineProps({
@@ -13,6 +14,7 @@ const recipe = recipeStore.getBySlug(props.slug);
 
 <template>
   <RecipeDetails
+    v-if="recipe"
     :name="recipe.name"
     :draft="recipe.draft || false"
     :image="recipe.image"
@@ -24,6 +26,7 @@ const recipe = recipeStore.getBySlug(props.slug);
     :baseServings="recipe.baseServings"
     :steps="recipe.steps"
   />
+  <RecipeDetailsNotFound v-else />
 </template>
 
 <style></style>
