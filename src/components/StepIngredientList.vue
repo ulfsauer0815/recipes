@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import type { Ingredient } from "@/domain/types";
+import { servingIngredients } from "@/domain/ingredients";
+import { computed } from "vue";
 
 const props = defineProps<{
   ingredients: Ingredient[];
@@ -7,15 +9,9 @@ const props = defineProps<{
   servings: number;
 }>();
 
-function getIngredientAmount(ingredient: Ingredient) {
-  if (!ingredient.quantity) {
-    return "";
-  }
-  return (
-    (ingredient.quantity / (props.baseServings || 1)) *
-    props.servings
-  ).toLocaleString();
-}
+const ingredients = computed(() =>
+  servingIngredients(props.ingredients, props.baseServings, props.servings)
+);
 </script>
 
 <template>
@@ -26,9 +22,10 @@ function getIngredientAmount(ingredient: Ingredient) {
       :key="ingredient.name"
     >
       <span v-if="index != 0">, </span>
-      <span class="ingredient-amount" v-if="ingredient.quantity">
-        {{ getIngredientAmount(ingredient) }}
-        {{ ingredient.unit }} {{ ingredient.name }}
+      <span class="ingredient-amount" v-if="ingredient.amount">
+        {{ ingredient.amount }}
+        {{ ingredient.unit }}
+        {{ ingredient.name }}
       </span>
       <span class="ingredient-amount" v-else>
         <span class="ingredient-name">
