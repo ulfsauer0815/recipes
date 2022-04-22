@@ -64,7 +64,7 @@ document.title = name.value;
       />
 
       <div class="item-details-image section">
-        <img :src="image" />
+        <img :src="image" alt="Foto"/>
       </div>
 
       <div
