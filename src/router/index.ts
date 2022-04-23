@@ -1,9 +1,18 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import {
+  createRouter,
+  createWebHashHistory,
+  createWebHistory,
+} from "vue-router";
 import RecipeListView from "../views/RecipeListView.vue";
 import RecipeDetailsView from "../views/RecipeDetailsView.vue";
 
+const history =
+  import.meta.env.VITE_HISTORY_MODE == "hash"
+    ? createWebHashHistory()
+    : createWebHistory();
+
 const router = createRouter({
-  history: createWebHashHistory(import.meta.env.BASE_URL),
+  history: history,
   routes: [
     {
       path: "/",

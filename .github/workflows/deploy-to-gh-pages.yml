@@ -25,6 +25,8 @@ jobs:
         run: "npm ci"
 
       - name: Build site
+        env:
+          VITE_HISTORY_MODE: "hash"
         run: "npm run build"
 
       - name: Deploy to GitHub pages
