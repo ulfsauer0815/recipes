@@ -1,12 +1,20 @@
 <script setup lang="ts">
-defineProps({
-  name: { type: String, required: true },
-  draft: { type: Boolean },
-  slug: { type: String, required: true },
-  link: { type: String },
-  listImage: { type: String },
-  shortDescription: { type: String },
-});
+import { computed } from "vue";
+
+const props = defineProps<{
+  name: string;
+  draft?: boolean;
+  slug: string;
+  link?: string;
+  listImage?: string;
+  shortDescription?: string;
+}>();
+
+const listImage = computed(() =>
+  props.listImage == null || props.listImage.startsWith("http")
+    ? props.listImage
+    : "/img/300px/" + props.listImage
+);
 </script>
 
 <template>

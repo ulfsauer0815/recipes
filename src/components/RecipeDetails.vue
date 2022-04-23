@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { toRef, ref } from "vue";
+import { toRef, ref, computed } from "vue";
 import { useRoute } from "vue-router";
 import IngredientList from "./IngredientList.vue";
 import Steps from "./Steps.vue";
@@ -21,6 +21,7 @@ const props = defineProps<{
 }>();
 
 const name = toRef(props, "name");
+document.title = name.value;
 
 const servings = ref(props.defaultServings || props.baseServings || 1);
 
@@ -33,7 +34,11 @@ function dec() {
   }
 }
 
-document.title = name.value;
+const image = computed(() =>
+  props.image == null || props.image.startsWith("http")
+    ? props.image
+    : "/img/750px/" + props.image
+);
 </script>
 
 <template>
@@ -64,7 +69,7 @@ document.title = name.value;
       />
 
       <div class="item-details-image section">
-        <img :src="image" alt="Foto"/>
+        <img :src="image" alt="Foto" />
       </div>
 
       <div

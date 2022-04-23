@@ -1,7 +1,8 @@
 #!/bin/bash
 
 IN_DIR="public/img/original"
-OUT_DIR_MAIN="public/img"
+OUT_DIR_HIRES="public/img/4000px"
+OUT_DIR_DETAILS="public/img/750px"
 OUT_DIR_THUMBNAIL="public/img/300px"
 IGNORE_DIR="unsorted"
 
@@ -20,11 +21,15 @@ find "$IN_DIR" \
     -iname "*.jpg" -print0 |
     while IFS= read -r -d '' in_file; do
         filename="${in_file#"$IN_DIR/"}"
-        out_file_compressed="$OUT_DIR_MAIN/$filename"
+        out_file_hires="$OUT_DIR_HIRES/$filename"
+        out_file_details="$OUT_DIR_DETAILS/$filename"
         out_file_thumbnail="$OUT_DIR_THUMBNAIL/$filename"
 
-        file_not_exists "$out_file_compressed" &&
-            ./scripts/convert-image-main.sh "$in_file" "$out_file_compressed"
+        file_not_exists "$out_file_hires" &&
+            ./scripts/convert-image-hires.sh "$in_file" "$out_file_hires"
+
+        file_not_exists "$out_file_details" &&
+            ./scripts/convert-image-details.sh "$in_file" "$out_file_details"
 
         file_not_exists "$out_file_thumbnail" &&
             ./scripts/convert-image-thumbnail.sh "$in_file" "$out_file_thumbnail"
