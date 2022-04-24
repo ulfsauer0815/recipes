@@ -27,6 +27,13 @@ const router = createRouter({
       component: RecipeDetailsView,
     },
   ],
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { top: 0 };
+    }
+  },
 });
 
 router.afterEach(() => {
