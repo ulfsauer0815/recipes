@@ -26,7 +26,7 @@ function singularUnit(plural: string): string {
 }
 
 function getIngredientAmountFormatted(amount: number | undefined) {
-  return amount?.toLocaleString() ?? "";
+  return amount?.toLocaleString(undefined, { maximumFractionDigits: 2 }) ?? "";
 }
 
 function getIngredientAmount(
