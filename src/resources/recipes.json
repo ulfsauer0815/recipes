@@ -1,5 +1,122 @@
 [
     {
+        "name": "Grünkohl mit Tofu",
+        "slug": "gruenkohl-mit-tofu",
+        "listImage": "https://via.placeholder.com/150x150",
+        "image": "https://via.placeholder.com/750x500",
+        "shortDescription": "😋😋😋",
+        "description": "Es lebe die Grünkohlzeit!",
+        "defaultServings": 6,
+        "baseServings": 3,
+        "tips": "Zur Frustprävention braucht mal auf jeden Fall einen großen Topf um den Grünkohl zu bändigen!",
+        "ingredients": [
+            {
+                "name": "Grünkohl",
+                "quantity": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Kartoffeln",
+                "quantity": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Räuchertofu",
+                "quantity": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebeln",
+                "quantity": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Gemüsebrühe",
+                "quantity": 200,
+                "unit": "ml"
+            },
+            {
+                "name": "Butter",
+                "quantity": 35,
+                "unit": "g",
+                "replacement": "Pflanzenfett"
+            },
+            {
+                "name": "Senf",
+                "quantity": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Rauchsalz",
+                "replacement": "Salz"
+            },
+            {
+                "name": "Pfeffer"
+            }
+        ],
+        "steps": [
+            {
+                "description": "Zwiebeln würfeln und in Butter andünsten",
+                "ingredients": [
+                    {
+                        "name": "Zwiebeln",
+                        "quantity": 200,
+                        "unit": "g"
+                    },
+                    {
+                        "name": "Butter",
+                        "quantity": 35,
+                        "unit": "g"
+                    }
+                ]
+            },
+            {
+                "description": "Grünkohl hinzugeben, kurz andünsten und dann Gemüsebrühe dazugeben. Bei mittlerer Hitze 45 Minuten köcheln lassen. Zwischendurch umrühren",
+                "ingredients": [
+                    {
+                        "name": "Grünkohl",
+                        "quantity": 500,
+                        "unit": "g"
+                    },
+                    {
+                        "name": "Gemüsebrühe",
+                        "quantity": 200,
+                        "unit": "ml"
+                    }
+                ]
+            },
+            {
+                "description": "Kartoffeln schälen, in kleine Stücke schneiden und für weitere 20 Minuten mit dem Grünkohl köcheln lassen",
+                "ingredients": [
+                    {
+                        "name": "Kartoffeln",
+                        "quantity": 500,
+                        "unit": "g"
+                    }
+                ]
+            },
+            {
+                "description": "Tofu in kleine Würfel schneiden und scharf anbraten bis sie knusprig braun sind. Mit (Rauch)salz würzen",
+                "ingredients": [
+                    {
+                        "name": "Räuchertofu",
+                        "quantity": 200,
+                        "unit": "g"
+                    },
+                    {
+                        "name": "Rauchsalz"
+                    }
+                ]
+            },
+            {
+                "description": "Tofu zum Grünkohl und den Kartoffeln dazugeben und weitere 15 Minuten köcheln lassen"
+            },
+            {
+                "description": "Mit Senf, Salz und Pfeffer abschmecken"
+            }
+        ]
+    },
+    {
         "name": "Kürbissuppe",
         "slug": "kokos-kurbissuppe",
         "listImage": "https://via.placeholder.com/150x150",
