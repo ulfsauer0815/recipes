@@ -2,8 +2,8 @@
     {
         "name": "Apple Crumble",
         "slug": "apple-crumble",
-        "listImage": "https://via.placeholder.com/150x150",
-        "image": "https://via.placeholder.com/750x500",
+        "listImage": "apple-crumble-2.jpg",
+        "image": "apple-crumble.jpg",
         "shortDescription": "",
         "defaultServings": 6,
         "baseServings": 6,
