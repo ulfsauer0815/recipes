@@ -1,5 +1,100 @@
 [
     {
+        "name": "Apple Crumble",
+        "slug": "apple-crumble",
+        "listImage": "https://via.placeholder.com/150x150",
+        "image": "https://via.placeholder.com/750x500",
+        "shortDescription": "",
+        "defaultServings": 6,
+        "baseServings": 6,
+        "tips": "Super lecker mit Vanillesoße!",
+        "ingredients": [
+            {
+                "name": "Äpfel",
+                "quantity": 600,
+                "unit": "g"
+            },
+            {
+                "name": "Mehl",
+                "quantity": 175,
+                "unit": "g"
+            },
+            {
+                "name": "Butter",
+                "quantity": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Zucker",
+                "quantity": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Zimt",
+                "quantity": 1,
+                "unit": "TL"
+            },
+            {
+                "name": "Zitronen",
+                "quantity": 0.5
+            }
+        ],
+        "steps": [
+            {
+                "description": "Für den Streusel die Butter fein würfeln, mit Mehl, Zucker und der Hälfte des Zimts vermischen und kühl stellen",
+                "ingredients": [
+                    {
+                        "name": "Butter",
+                        "quantity": 100,
+                        "unit": "g"
+                    },
+                    {
+                        "name": "Mehl",
+                        "quantity": 175,
+                        "unit": "g"
+                    },
+                    {
+                        "name": "Zucker",
+                        "quantity": 100,
+                        "unit": "g"
+                    },
+                    {
+                        "name": "Zimt",
+                        "quantity": 0.5,
+                        "unit": "TL"
+                    }
+                ]
+            },
+            {
+                "description": "Die Äpfel schälen, in Scheiben schneiden und auf einem Blech verteilen",
+                "ingredients": [
+                    {
+                        "name": "Äpfel",
+                        "quantity": 600,
+                        "unit": "g"
+                    }
+                ]
+            },
+            {
+                "description": "Die Apfelscheiben mit etwas Zitronensaft beträufeln und dem restlichen Zimt bestreuen",
+                "ingredients": [
+                    {
+                        "name": "Zimt",
+                        "quantity": 0.5,
+                        "unit": "TL"
+                    },
+                    {
+                        "name": "Zitronen",
+                        "quantity": 0.5
+                    }
+                ]
+            },
+            {
+                "description": "Streusel über die Apfelscheiben geben und für 25-30 Minuten im Ofen bei 180°C (Umluft) backen"
+            }
+        ]
+    },
+    {
         "name": "Grünkohl mit Tofu",
         "slug": "gruenkohl-mit-tofu",
         "listImage": "https://via.placeholder.com/150x150",

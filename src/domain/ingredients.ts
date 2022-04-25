@@ -1,6 +1,7 @@
 import type { Ingredient, ServingIngredient } from "./types";
 
 const ingredientMapping: Record<string, string> = {
+  Äpfel: "Apfel",
   Zitronen: "Zitrone",
   Eier: "Ei",
   Tomaten: "Tomate",
