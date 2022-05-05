@@ -2,7 +2,7 @@
 import { toRef, ref, computed } from "vue";
 import { useRoute } from "vue-router";
 import IngredientList from "./IngredientList.vue";
-import Steps from "./Steps.vue";
+import RecipeSteps from "./RecipeSteps.vue";
 import type { Ingredient, Step } from "@/domain/types";
 
 const route = useRoute();
@@ -83,7 +83,7 @@ const image = computed(() =>
       </div>
 
       <div class="item-details-steps section">
-        <Steps
+        <RecipeSteps
           class="item-details-steps"
           v-if="steps"
           :steps="steps"
