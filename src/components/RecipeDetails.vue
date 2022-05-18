@@ -68,7 +68,7 @@ const image = computed(() =>
         :baseServings="baseServings"
       />
 
-      <div class="item-details-image section">
+      <div v-if="image" class="item-details-image section">
         <img :src="image" alt="Foto" />
       </div>
 

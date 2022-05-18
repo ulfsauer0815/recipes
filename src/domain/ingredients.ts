@@ -11,7 +11,7 @@ const ingredientMapping: Record<string, string> = {
   Mandeln: "Mandel",
   Karotten: "Karotte",
   Spitzpaprikas: "Spitzpaprika",
-  Paprikas: "Paprika"
+  Paprikas: "Paprika",
 };
 
 const unitMapping: Record<string, string> = {
