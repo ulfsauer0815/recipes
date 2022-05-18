@@ -354,6 +354,83 @@
         ]
     },
     {
+        "name": "Linsensalat mit Gemüse",
+        "draft": true,
+        "slug": "linsensalat-mit-gemuese",
+        "listImage": "https://via.placeholder.com/150x150",
+        "image": "https://via.placeholder.com/750x500",
+        "shortDescription": "mit Zucchini & Paprika",
+        "defaultServings": 4,
+        "baseServings": 4,
+        "ingredients": [
+            {
+                "name": "Linsen (grün)",
+                "quantity": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Zucchini",
+                "quantity": 2
+            },
+            {
+                "name": "Paprikas",
+                "quantity": 2
+            },
+            {
+                "name": "Tomaten",
+                "quantity": 4
+            },
+            {
+                "name": "Zwiebeln (rot)",
+                "quantity": 2
+            },
+            {
+                "name": "Knoblauch",
+                "quantity": 3,
+                "unit": "Zehen"
+            },
+            {
+                "name": "Balsamico Essig",
+                "quantity": 6,
+                "unit": "EL"
+            },
+            {
+                "name": "Thymian",
+                "quantity": 3,
+                "unit": "TL"
+            },
+            {
+                "name": "Agavendicksaft",
+                "quantity": 3,
+                "unit": "TL"
+            },
+            {
+                "name": "Senf",
+                "quantity": 3,
+                "unit": "TL"
+            },
+            {
+                "name": "Koriander (gemahlen)",
+                "quantity": 2,
+                "unit": "TL"
+            },
+            {
+                "name": "Kreuzkümmel",
+                "quantity": 1.5,
+                "unit": "TL"
+            },
+            {
+                "name": "Olivenöl"
+            },
+            {
+                "name": "Pfeffer"
+            },
+            {
+                "name": "Salz"
+            }
+        ]
+    },
+    {
         "name": "Masur Dal",
         "slug": "masul-dal",
         "listImage": "https://via.placeholder.com/150x150",
