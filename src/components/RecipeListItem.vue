@@ -15,13 +15,26 @@ const listImage = computed(() =>
     ? props.listImage
     : "/img/300px/" + props.listImage
 );
+
+const hasListImage = computed(() => listImage.value != null);
 </script>
 
 <template>
   <div class="list-item">
-    <div class="list-image-container">
+    <div
+      :class="{
+        'list-image-container': hasListImage,
+        'list-image-container-placeholder': !hasListImage,
+      }"
+    >
       <router-link :to="'/recipe/' + slug">
-        <img class="list-image" :src="listImage" alt="Foto" />
+        <img v-if="listImage" class="list-image" :src="listImage" alt="Foto" />
+        <img
+          v-else
+          class="list-image-placeholder"
+          src="@/assets/cooking-book-5024.svg"
+          alt="Foto"
+        />
         <span class="list-draft" v-if="draft">🚧</span>
       </router-link>
     </div>
@@ -59,17 +72,32 @@ const listImage = computed(() =>
   max-width: 100%;
 }
 
+.list-image-placeholder {
+  object-fit: cover;
+  min-height: 150px;
+  max-width: 100%;
+  opacity: 20%;
+}
+
 .list-image-container {
   display: flex;
   width: 150px;
   height: 150px;
   overflow: hidden;
 
-  color: var(--color-text);
-  background: var(--color-background);
-
   border: 1px solid var(--color-border);
   border-radius: 8px;
+}
+
+.list-image-container-placeholder {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.list-image-container-placeholder img {
+  filter: brightness(var(--invert-image));
 }
 
 h3 {
