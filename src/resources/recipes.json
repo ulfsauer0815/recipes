@@ -95,6 +95,142 @@
         ]
     },
     {
+        "name": "Erbsen-Minz Suppe",
+        "slug": "erbsen-minz-suppe",
+        "shortDescription": "Minzig lecker!",
+        "defaultServings": 6,
+        "baseServings": 6,
+        "ingredients": [
+            {
+                "name": "Erbsen (tiefgekühlt)",
+                "quantity": 1000,
+                "unit": "g"
+            },
+            {
+                "name": "Kartoffeln",
+                "quantity": 4
+            },
+            {
+                "name": "Minze",
+                "quantity": 30,
+                "unit": "g"
+            },
+            {
+                "name": "Gemüsebrühe",
+                "quantity": 1,
+                "unit": "l"
+            },
+            {
+                "name": "Sahne",
+                "quantity": 100,
+                "unit": "ml"
+            },
+            {
+                "name": "Zitrone",
+                "quantity": 0.5
+            },
+            {
+                "name": "Zwiebeln",
+                "quantity": 4
+            },
+            {
+                "name": "Knoblauch",
+                "quantity": 2,
+                "unit": "Zehen"
+            },
+            {
+                "name": "Butter"
+            },
+            {
+                "name": "Pfeffer"
+            },
+            {
+                "name": "Salz"
+            }
+        ],
+        "steps": [
+            {
+                "description": "Kartoffeln schälen und grob würfeln",
+                "ingredients": [
+                    {
+                        "name": "Kartoffeln",
+                        "quantity": 4
+                    }
+                ]
+            },
+            {
+                "description": "Zwiebeln und Knoblauch mit viel Butter anschwitzen",
+                "ingredients": [
+                    {
+                        "name": "Zwiebeln",
+                        "quantity": 4
+                    },
+                    {
+                        "name": "Knoblauch",
+                        "quantity": 2,
+                        "unit": "Zehen"
+                    },
+                    {
+                        "name": "Butter"
+                    }
+                ]
+            },
+            {
+                "description": "Kartoffeln hinzugeben und anschwitzen bis sie leicht glasig sind"
+            },
+            {
+                "description": "Erbsen hinzugeben und die Temperatur erhöhen",
+                "ingredients": [
+                    {
+                        "name": "Erbsen (tiefgekühlt)",
+                        "quantity": 1000,
+                        "unit": "g"
+                    }
+                ]
+            },
+            {
+                "description": "Mit Gemüsebrühe ablöschen und köcheln lassen bis alles weich geworden ist",
+                "ingredients": [
+                    {
+                        "name": "Gemüsebrühe",
+                        "quantity": 1,
+                        "unit": "l"
+                    }
+                ]
+            },
+            {
+                "description": "Minze grob hacken und anschließend alles pürieren",
+                "ingredients": [
+                    {
+                        "name": "Minze",
+                        "quantity": 30,
+                        "unit": "g"
+                    }
+                ]
+            },
+            {
+                "description": "Mit Sahne, Zitrone und Gewürzen abschmecken",
+                "ingredients": [
+                    {
+                        "name": "Sahne",
+                        "quantity": 100,
+                        "unit": "ml"
+                    },
+                    {
+                        "name": "Zitrone",
+                        "quantity": 0.5
+                    },
+                    {
+                        "name": "Pfeffer"
+                    },
+                    {
+                        "name": "Salz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Grünkohl mit Tofu",
         "slug": "gruenkohl-mit-tofu",
         "shortDescription": "😋😋😋",
