@@ -10,6 +10,7 @@ const ingredientMapping: Record<string, string> = {
   "Eier (Eigelb)": "Ei (Eigelb)",
   Mandeln: "Mandel",
   Karotten: "Karotte",
+  Kartoffeln: "Kartoffel",
   Spitzpaprikas: "Spitzpaprika",
   Paprikas: "Paprika",
 };
