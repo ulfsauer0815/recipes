@@ -280,6 +280,9 @@
                 "replacement": "Salz"
             },
             {
+                "name": "Salz"
+            },
+            {
                 "name": "Pfeffer"
             }
         ],
@@ -300,7 +303,7 @@
                 ]
             },
             {
-                "description": "Grünkohl hinzugeben, kurz andünsten und dann Gemüsebrühe dazugeben. Bei mittlerer Hitze 45 Minuten köcheln lassen. Zwischendurch umrühren",
+                "description": "Grünkohl hinzugeben, kurz andünsten und dann Gemüsebrühe dazugeben. Bei niedriger Hitze und geschlossenem Deckel 45 Minuten köcheln lassen. Zwischendurch umrühren",
                 "ingredients": [
                     {
                         "name": "Grünkohl",
@@ -341,7 +344,14 @@
                 "description": "Tofu zum Grünkohl und den Kartoffeln dazugeben und weitere 15 Minuten köcheln lassen"
             },
             {
-                "description": "Mit Senf, Salz und Pfeffer abschmecken"
+                "description": "Mit Senf, Salz und Pfeffer abschmecken",
+                "ingredients": [
+                    {
+                        "name": "Senf",
+                        "quantity": 50,
+                        "unit": "g"
+                    }
+                ]
             }
         ]
     },
