@@ -464,6 +464,11 @@
                 "description": "Alles pürieren und mit restlichen Zutaten abschmecken",
                 "ingredients": [
                     {
+                        "name": "Kokosmilch",
+                        "quantity": 300,
+                        "unit": "ml"
+                    },
+                    {
                         "name": "Zitronen",
                         "quantity": 0.5
                     },
