@@ -702,9 +702,9 @@
                 "description": "Kokosmilch unterrühren und 20 Minuten köcheln lassen",
                 "ingredients": [
                     {
-                        "name": "Rote Linsen",
-                        "quantity": 240,
-                        "unit": "g"
+                        "name": "Kokosmilch",
+                        "quantity": 390,
+                        "unit": "ml"
                     }
                 ]
             },
