@@ -27,7 +27,7 @@ jobs:
       - name: Build site
         env:
           VITE_HISTORY_MODE: "hash"
-          BASE_PATH: recipes
+          BASE_PATH: "/recipes/"
         run: "npm run build"
 
       - name: Deploy to GitHub pages
