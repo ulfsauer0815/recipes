@@ -13,7 +13,7 @@ const props = defineProps<{
 const listImage = computed(() =>
   props.listImage == null || props.listImage.startsWith("http")
     ? props.listImage
-    : "/img/300px/" + props.listImage
+    : `${import.meta.env.BASE_URL}/img/300px/${props.listImage}`
 );
 
 const hasListImage = computed(() => listImage.value != null);

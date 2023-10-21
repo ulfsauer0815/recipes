@@ -37,7 +37,7 @@ function dec() {
 const image = computed(() =>
   props.image == null || props.image.startsWith("http")
     ? props.image
-    : "/img/750px/" + props.image
+    : `${import.meta.env.BASE_URL}/img/750px/${props.image}`
 );
 </script>
 
